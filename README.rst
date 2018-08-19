@@ -22,13 +22,33 @@ Unlabelled
 
 * `Twitter User Sample (Tweets Loud and Quiet) <https://github.com/jonbruner/twitter-analysis>`_ {`MPL 2.0`_} - Metadata of ~400,000 Twitter accounts, scraped between September 17, 2013, and October 19, 2013, as part of the work on the `"Tweets loud and quiet" article <https://www.oreilly.com/ideas/tweets-loud-and-quiet>`_. 
 
+* `Max Plank Institute's Twitter Dataset <http://twitter.mpi-sws.org/>` - **The social graph component only of the following dataset:** 54,981,152 user accounts; 1,963,263,821 social (follow) links. 1,755,925,520 tweets.
+
+* `Elon Musk Tweets-Until 4/6/17 <https://data.world/adamhelsinger/elon-musk-tweets-until-4-6-17>`_
+
+* `2015 New Year's Resolutions <https://data.world/crowdflower/2015-new-years-resolutions>`_
+
+* `350k MeToo tweets <https://data.world/rdeeds/350k-metoo-tweets>`_
+
+* `Trump Tweets, 5/4/09 - 12/5/16 <https://data.world/lovesdata/trump-tweets-5-4-09-12-5-16>`_
+
+
+Labelled
+--------
+
+* `Weather-sentiment <https://data.world/crowdflower/weather-sentiment>`_
+
+
 
 Lost Datasets
 -------------
 
-* Kwak10www - A dataset consisting of 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. The social graph part of that data set is available on `the paper's webpage <http://an.kaist.ac.kr/traces/WWW2010.html>`_.
+* Kwak10www - A dataset consisting of 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. From the `"What is Twitter, a Social Network or a News Media?" paper <http://an.kaist.ac.kr/traces/WWW2010.html>`_. The social graph part of that data set is available on `the paper's webpage <http://an.kaist.ac.kr/traces/WWW2010.html>`_.
 
 * `twitter7 <http://snap.stanford.edu/data/twitter7.html>`_ - A dataset consisting of nearly 580 million Twitter posts from 20 million users covering a 8 month period from June 2009 to February 2010. Estimated to be about 20-30% of all posts published on Twitter during that time frame. Created as part of [`J. Yang, J. Leskovec. Temporal Variation in Online Media. ACM International Conference on Web Search and Data Mining (WSDM '11), 2011. <http://ilpubs.stanford.edu:8090/984/1/paper-memeshapes.pdf>`_].
+
+* burger2011 - A corpus consisting of 213 million tweets from 18.5 million users, in many different languages. Collected as part of `[John D. Burger, John C. Henderson, George Kim, and Guido Zarrella. 2011. Discriminating gender on Twitter. In Proceedings of the Conference on Empirical Methods in Natural Language Processing, pages 1301–1309] <http://www.aclweb.org/anthology/D11-1120>`_.
+
 
 
 Other Lists
