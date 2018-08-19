@@ -12,6 +12,7 @@ A list of Twitter datasets.
 Twitter Datasets
 ================
 
+* `MovieTweetings <https://github.com/sidooms/MovieTweetings>`_ {`MIT`} - A live movie rating dataset collected from Twitter.
 
 Other Lists
 ===========
@@ -19,12 +20,15 @@ Other Lists
 * `Tweet ID Datasets <https://www.docnow.io/catalog/>`_ {`CC-BY 4.0`_} - A catalog of Twitter ID (i.e. contentless) datasets that are publicly available on the web.
 
 
-
-
-Related Tools
-=============
+Data Collection Tools
+=====================
 
 * `twitter-dataset-collector <https://github.com/socialsensor/twitter-dataset-collector>`_ {`Apache License 2.0`_} [Java] - Facilitates the distribution of Twitter datasets by downloading sets of tweets (if still available) using their ids as input.
+
+
+Analysis Tools
+==============
+
 
 
 .. License Links
