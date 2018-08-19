@@ -12,7 +12,24 @@ A list of Twitter datasets.
 Twitter Datasets
 ================
 
+
+Unlabelled
+----------
+
+* `Twitter Social Graph <http://an.kaist.ac.kr/traces/WWW2010.html>`_ {?} - From the `"What is Twitter, a Social Network or a News Media?" paper <http://an.kaist.ac.kr/traces/WWW2010.html>`_.
+
 * `MovieTweetings <https://github.com/sidooms/MovieTweetings>`_ {`MIT`_} - A live movie rating dataset collected from Twitter.
+
+* `Twitter User Sample (Tweets Loud and Quiet) <https://github.com/jonbruner/twitter-analysis>`_ {`MPL 2.0`_} - Metadata of ~400,000 Twitter accounts, scraped between September 17, 2013, and October 19, 2013, as part of the work on the `"Tweets loud and quiet" article <https://www.oreilly.com/ideas/tweets-loud-and-quiet>`_. 
+
+
+Lost Datasets
+-------------
+
+* Kwak10www - A dataset consisting of 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets. The social graph part of that data set is available on `the paper's webpage <http://an.kaist.ac.kr/traces/WWW2010.html>`_.
+
+* `twitter7 <http://snap.stanford.edu/data/twitter7.html>`_ - A dataset consisting of nearly 580 million Twitter posts from 20 million users covering a 8 month period from June 2009 to February 2010. Estimated to be about 20-30% of all posts published on Twitter during that time frame. Created as part of [`J. Yang, J. Leskovec. Temporal Variation in Online Media. ACM International Conference on Web Search and Data Mining (WSDM '11), 2011. <http://ilpubs.stanford.edu:8090/984/1/paper-memeshapes.pdf>`_].
+
 
 Other Lists
 ===========
@@ -25,11 +42,15 @@ Data Collection Tools
 
 * `twitter-dataset-collector <https://github.com/socialsensor/twitter-dataset-collector>`_ {`Apache License 2.0`_} [Java] - Facilitates the distribution of Twitter datasets by downloading sets of tweets (if still available) using their ids as input.
 
+* `Twitter-ratings <https://github.com/sidooms/Twitter-ratings>`_ {`MIT`_} - A collection of Python scripts to download and extract rating datasets from Twitter for multiple websites.
+
 
 Analysis Tools
 ==============
 
 * `sentimentstwitter <https://github.com/alabid/sentimentstwitter>`_ {`MIT`_} - Given a tweet (that contains some text), estimate the sentiment (negative or positive) of the tweeter.
+
+* `Twitter-L-LDA <https://github.com/harryaskham/Twitter-L-LDA>`_ {`GPLv3`_} - A set of tools for performing Labeled Latent Dirichlet Allocation on textual datasets, with an emphasis on Twitter profiles. Contains tools for analysing the results of model training and inference.
 
 
 .. License Links
@@ -43,3 +64,4 @@ Analysis Tools
 .. _Apache License 2.0: https://www.apache.org/licenses/LICENSE-2.0
 .. _MIT: https://en.wikipedia.org/wiki/MIT_License
 .. _CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
+.. _MPL 2.0: https://github.com/jonbruner/twitter-analysis
