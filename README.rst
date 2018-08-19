@@ -56,7 +56,7 @@ Other Lists
 
 * `Tweet ID Datasets <https://www.docnow.io/catalog/>`_ {`CC-BY 4.0`_} - A catalog of Twitter ID (i.e. contentless) datasets that are publicly available on the web.
 
-$ `Free Twitter Datasets by followthehashtag <http://followthehashtag.com/datasets/>`_
+* `Free Twitter Datasets by followthehashtag <http://followthehashtag.com/datasets/>`_
 
 
 Data Collection Tools
@@ -73,6 +73,8 @@ Analysis Tools
 * `sentimentstwitter <https://github.com/alabid/sentimentstwitter>`_ {`MIT`_} - Given a tweet (that contains some text), estimate the sentiment (negative or positive) of the tweeter.
 
 * `Twitter-L-LDA <https://github.com/harryaskham/Twitter-L-LDA>`_ {`GPLv3`_} - A set of tools for performing Labeled Latent Dirichlet Allocation on textual datasets, with an emphasis on Twitter profiles. Contains tools for analysing the results of model training and inference.
+
+* `TwitterGenderPredictor <https://github.com/jtwool/TwitterGenderPredictor>`_
 
 
 .. License Links
