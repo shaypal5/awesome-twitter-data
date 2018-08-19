@@ -22,7 +22,7 @@ Unlabelled
 
 * `Twitter User Sample (Tweets Loud and Quiet) <https://github.com/jonbruner/twitter-analysis>`_ {`MPL 2.0`_} - Metadata of ~400,000 Twitter accounts, scraped between September 17, 2013, and October 19, 2013, as part of the work on the `"Tweets loud and quiet" article <https://www.oreilly.com/ideas/tweets-loud-and-quiet>`_. 
 
-* `Max Plank Institute's Twitter Dataset <http://twitter.mpi-sws.org/>` - **The social graph component only of the following dataset:** 54,981,152 user accounts; 1,963,263,821 social (follow) links. 1,755,925,520 tweets.
+* `Max Plank Institute's Twitter Dataset <http://twitter.mpi-sws.org/>`_ - **The social graph component only of the following dataset:** 54,981,152 user accounts; 1,963,263,821 social (follow) links. 1,755,925,520 tweets.
 
 * `Elon Musk Tweets-Until 4/6/17 <https://data.world/adamhelsinger/elon-musk-tweets-until-4-6-17>`_
 
@@ -55,6 +55,8 @@ Other Lists
 ===========
 
 * `Tweet ID Datasets <https://www.docnow.io/catalog/>`_ {`CC-BY 4.0`_} - A catalog of Twitter ID (i.e. contentless) datasets that are publicly available on the web.
+
+$ `Free Twitter Datasets by followthehashtag <http://followthehashtag.com/datasets/>`_
 
 
 Data Collection Tools
