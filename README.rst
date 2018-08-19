@@ -4,7 +4,7 @@ awesome-twitter-datasets
 A list of Twitter datasets.
 
 
-.. contents::
+.. contents:: Table of Contents
 
 .. section-numbering::
 
@@ -23,3 +23,5 @@ Other Lists
 
 Related Tools
 =============
+
+* `twitter-dataset-collector <https://github.com/socialsensor/twitter-dataset-collector>`_ - Facilitates the distribution of Twitter datasets by downloading sets of tweets (if still available) using their ids as input.
