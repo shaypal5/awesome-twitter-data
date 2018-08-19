@@ -12,7 +12,7 @@ A list of Twitter datasets.
 Twitter Datasets
 ================
 
-* `MovieTweetings <https://github.com/sidooms/MovieTweetings>`_ {`MIT`} - A live movie rating dataset collected from Twitter.
+* `MovieTweetings <https://github.com/sidooms/MovieTweetings>`_ {`MIT`_} - A live movie rating dataset collected from Twitter.
 
 Other Lists
 ===========
