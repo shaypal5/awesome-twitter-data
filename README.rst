@@ -24,4 +24,17 @@ Other Lists
 Related Tools
 =============
 
-* `twitter-dataset-collector <https://github.com/socialsensor/twitter-dataset-collector>`_ - Facilitates the distribution of Twitter datasets by downloading sets of tweets (if still available) using their ids as input.
+* `twitter-dataset-collector <https://github.com/socialsensor/twitter-dataset-collector>`_ {`Apache License 2.0`_} [Java] - Facilitates the distribution of Twitter datasets by downloading sets of tweets (if still available) using their ids as input.
+
+
+.. License Links
+
+.. _Public Domain: https://en.wikipedia.org/wiki/Public_domain
+.. _CC-BY-SA 3.0: https://creativecommons.org/licenses/by-sa/3.0/
+.. _AGPL-3.0: https://opensource.org/licenses/AGPL-3.0
+.. _GPLv3: http://www.gnu.org/copyleft/gpl.html
+.. _CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/
+.. _CC BY-NC 4.0: https://creativecommons.org/licenses/by-nc/4.0/
+.. _Apache License 2.0: https://www.apache.org/licenses/LICENSE-2.0
+.. _MIT: https://en.wikipedia.org/wiki/MIT_License
+.. _CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
