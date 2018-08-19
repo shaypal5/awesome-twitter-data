@@ -29,7 +29,7 @@ Data Collection Tools
 Analysis Tools
 ==============
 
-* `sentimentstwitter <https://github.com/alabid/sentimentstwitter>`_ -{`MIT`_} - Given a tweet (that contains some text), estimate the sentiment (negative or positive) of the tweeter.
+* `sentimentstwitter <https://github.com/alabid/sentimentstwitter>`_ {`MIT`_} - Given a tweet (that contains some text), estimate the sentiment (negative or positive) of the tweeter.
 
 
 .. License Links
