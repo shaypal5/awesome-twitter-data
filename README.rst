@@ -16,7 +16,7 @@ Twitter Datasets
 Other Lists
 ===========
 
-* `Tweet ID Datasets <https://www.docnow.io/catalog/>`_ - A catalog of Twitter ID (i.e. contentless) datasets that are publicly available on the web.
+* `Tweet ID Datasets <https://www.docnow.io/catalog/>`_ {`CC-BY 4.0`} - A catalog of Twitter ID (i.e. contentless) datasets that are publicly available on the web.
 
 
 
