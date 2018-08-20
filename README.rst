@@ -16,13 +16,13 @@ Twitter Datasets
 Unlabelled
 ----------
 
-* `Twitter Social Graph <http://an.kaist.ac.kr/traces/WWW2010.html>`_ {?} - From the `"What is Twitter, a Social Network or a News Media?" paper <http://an.kaist.ac.kr/traces/WWW2010.html>`_.
+* `News Tweets <https://github.com/vered1986/Chirps/>`_ {`Apache License 2.0`_} - Updated daily. used in the paper `""cquiring Predicate Paraphrases from News Tweets" <http://aclweb.org/anthology/S/S17/S17-1019.pdf>`_ by Vered Shwartz, Gabriel Stanovsky and Ido Dagan.
 
 * `MovieTweetings <https://github.com/sidooms/MovieTweetings>`_ {`MIT`_} - A live movie rating dataset collected from Twitter.
 
 * `Twitter User Sample (Tweets Loud and Quiet) <https://github.com/jonbruner/twitter-analysis>`_ {`MPL 2.0`_} - Metadata of ~400,000 Twitter accounts, scraped between September 17, 2013, and October 19, 2013, as part of the work on the `"Tweets loud and quiet" article <https://www.oreilly.com/ideas/tweets-loud-and-quiet>`_. 
 
-* `Max Plank Institute's Twitter Dataset <http://twitter.mpi-sws.org/>`_ - **The social graph component only of the following dataset:** 54,981,152 user accounts; 1,963,263,821 social (follow) links. 1,755,925,520 tweets.
+
 
 * `Elon Musk Tweets-Until 4/6/17 <https://data.world/adamhelsinger/elon-musk-tweets-until-4-6-17>`_
 
@@ -38,6 +38,13 @@ Labelled
 
 * `Weather-sentiment <https://data.world/crowdflower/weather-sentiment>`_
 
+
+Links Only
+----------
+
+* `Twitter Social Graph <http://an.kaist.ac.kr/traces/WWW2010.html>`_ {?} - From the `"What is Twitter, a Social Network or a News Media?" paper <http://an.kaist.ac.kr/traces/WWW2010.html>`_.
+
+* `Max Plank Institute's Twitter Dataset <http://twitter.mpi-sws.org/>`_ - **The social graph component only of the following dataset:** 54,981,152 user accounts; 1,963,263,821 social (follow) links. 1,755,925,520 tweets.
 
 
 Lost Datasets
