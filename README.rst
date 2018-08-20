@@ -24,6 +24,8 @@ Unlabelled
 
 * `Twitter Event Detection Dataset <http://mir.dcs.gla.ac.uk/resources/>`_ - A collection of 120 million tweets, with relevance judgements for over 500 events.
 
+* `3 million Russian troll tweets <https://github.com/fivethirtyeight/russian-troll-tweets/>`_ - Released by 538.
+
 * `Elon Musk Tweets-Until 4/6/17 <https://data.world/adamhelsinger/elon-musk-tweets-until-4-6-17>`_
 
 * `2015 New Year's Resolutions <https://data.world/crowdflower/2015-new-years-resolutions>`_
