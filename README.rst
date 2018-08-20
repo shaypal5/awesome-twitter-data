@@ -22,6 +22,8 @@ Unlabelled
 
 * `Twitter User Sample (Tweets Loud and Quiet) <https://github.com/jonbruner/twitter-analysis>`_ {`MPL 2.0`_} - Metadata of ~400,000 Twitter accounts, scraped between September 17, 2013, and October 19, 2013, as part of the work on the `"Tweets loud and quiet" article <https://www.oreilly.com/ideas/tweets-loud-and-quiet>`_. 
 
+* `Twitter Event Detection Dataset <http://mir.dcs.gla.ac.uk/resources/>`_ - A collection of 120 million tweets, with relevance judgements for over 500 events.
+
 * `Elon Musk Tweets-Until 4/6/17 <https://data.world/adamhelsinger/elon-musk-tweets-until-4-6-17>`_
 
 * `2015 New Year's Resolutions <https://data.world/crowdflower/2015-new-years-resolutions>`_
@@ -69,6 +71,8 @@ Data Collection Tools
 
 * `twitter-dataset-collector <https://github.com/socialsensor/twitter-dataset-collector>`_ {`Apache License 2.0`_} [Java] - Facilitates the distribution of Twitter datasets by downloading sets of tweets (if still available) using their ids as input.
 
+* `Expand The Edinburgh Twitter FSD Corpus <https://gist.github.com/emaadmanzoor/5019020>`_
+
 * `Twitter-ratings <https://github.com/sidooms/Twitter-ratings>`_ {`MIT`_} - A collection of Python scripts to download and extract rating datasets from Twitter for multiple websites.
 
 
@@ -82,6 +86,8 @@ Analysis Tools
 * `Twitter-L-LDA <https://github.com/harryaskham/Twitter-L-LDA>`_ {`GPLv3`_} - A set of tools for performing Labeled Latent Dirichlet Allocation on textual datasets, with an emphasis on Twitter profiles. Contains tools for analysing the results of model training and inference.
 
 * `TwitterGenderPredictor <https://github.com/jtwool/TwitterGenderPredictor>`_
+
+* `Tools by Alan Ritter <http://aritter.github.io/software.html>`_ - Several Twitter-related tools by Alan Ritter.
 
 
 .. License Links
