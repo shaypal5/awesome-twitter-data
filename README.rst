@@ -1,7 +1,7 @@
 awesome-twitter-datasets
 ########################
 
-A list of Twitter datasets.
+A list of Twitter datasets and related resources. If you have a resource to add to the list, feel free to open a pull request, or email me at `shay.palachy@gmail.com <shay.palachy@gmail.com>`_.
 
 
 .. contents:: Table of Contents
@@ -21,8 +21,6 @@ Unlabelled
 * `MovieTweetings <https://github.com/sidooms/MovieTweetings>`_ {`MIT`_} - A live movie rating dataset collected from Twitter.
 
 * `Twitter User Sample (Tweets Loud and Quiet) <https://github.com/jonbruner/twitter-analysis>`_ {`MPL 2.0`_} - Metadata of ~400,000 Twitter accounts, scraped between September 17, 2013, and October 19, 2013, as part of the work on the `"Tweets loud and quiet" article <https://www.oreilly.com/ideas/tweets-loud-and-quiet>`_. 
-
-
 
 * `Elon Musk Tweets-Until 4/6/17 <https://data.world/adamhelsinger/elon-musk-tweets-until-4-6-17>`_
 
