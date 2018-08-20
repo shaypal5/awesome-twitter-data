@@ -1,5 +1,5 @@
-awesome-twitter-datasets
-########################
+awesome-twitter-data
+####################
 
 A list of Twitter datasets and related resources. If you have a resource to add to the list, feel free to open a pull request, or email me at `shay.palachy@gmail.com <shay.palachy@gmail.com>`_.
 
@@ -74,6 +74,8 @@ Data Collection Tools
 
 Analysis Tools
 ==============
+
+* `OSU Twitter NLP Tools <https://github.com/aritter/twitter_nlp>`_ - A suite of Twitter NLP tools.
 
 * `sentimentstwitter <https://github.com/alabid/sentimentstwitter>`_ {`MIT`_} - Given a tweet (that contains some text), estimate the sentiment (negative or positive) of the tweeter.
 
