@@ -41,8 +41,8 @@ Labelled
 * `Weather-sentiment <https://data.world/crowdflower/weather-sentiment>`_
 
 
-Links Only
-----------
+Social Graph Only
+-----------------
 
 * `Twitter Social Graph <http://an.kaist.ac.kr/traces/WWW2010.html>`_ {?} - From the `"What is Twitter, a Social Network or a News Media?" paper <http://an.kaist.ac.kr/traces/WWW2010.html>`_.
 
