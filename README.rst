@@ -16,7 +16,7 @@ Twitter Datasets
 Unlabelled
 ----------
 
-* `News Tweets <https://github.com/vered1986/Chirps/>`_ {`Apache License 2.0`_} - Updated daily. used in the paper `""cquiring Predicate Paraphrases from News Tweets" <http://aclweb.org/anthology/S/S17/S17-1019.pdf>`_ by Vered Shwartz, Gabriel Stanovsky and Ido Dagan.
+* `News Tweets <https://github.com/vered1986/Chirps/>`_ {`Apache License 2.0`_} - Updated daily. used in the paper `"Acquiring Predicate Paraphrases from News Tweets" <http://aclweb.org/anthology/S/S17/S17-1019.pdf>`_ by Vered Shwartz, Gabriel Stanovsky and Ido Dagan.
 
 * `MovieTweetings <https://github.com/sidooms/MovieTweetings>`_ {`MIT`_} - A live movie rating dataset collected from Twitter.
 
