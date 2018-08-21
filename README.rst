@@ -37,6 +37,12 @@ Tweet datasets
 * `Trump Tweets, 5/4/09 - 12/5/16 <https://data.world/lovesdata/trump-tweets-5-4-09-12-5-16>`_
 
 
+Tweet ID datasets
+~~~~~~~~~~~~~~~~~
+
+* `72 Hours of #Gamersgate <https://medium.com/message/72-hours-of-gamergate-e00513f7cf5d`_ [313K]
+
+
 Tweets datasets (labelled)
 --------------------------
 
