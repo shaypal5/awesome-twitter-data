@@ -68,6 +68,8 @@ User datasets
 
 * `Higgs Twitter Dataset <http://snap.stanford.edu/data/higgs-twitter.html>`_ {?} [456k] - The Higgs dataset has been built after monitoring the spreading processes on Twitter before, during and after the announcement of the discovery of a new particle with the features of the elusive Higgs boson on 4th July 2012.
 
+* `Twitter Data - NIPS 2012	<http://academictorrents.com/details/046cf7a75db2a530b1505a4ce125fbe0031f4661>`_ [81k] - This dataset consists of 'circles' (or 'lists') from Twitter. Twitter data was crawled from public sources. The dataset includes node features (profiles), circles, and ego networks.
+
 * `ego-twitter <http://snap.stanford.edu/data/ego-Twitter.html>`_ [80k] - 80K nodes and 1.7 million edges.
 
 
