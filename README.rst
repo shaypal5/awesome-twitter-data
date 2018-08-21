@@ -26,6 +26,8 @@ Tweet datasets
 
 * `3 million Russian troll tweets <https://github.com/fivethirtyeight/russian-troll-tweets/>`_ {?} [3m] - Released by 538.
 
+* `Lerman Twitter 2010 Dataset <http://academictorrents.com/details/d8b3a315172c8d804528762f37fa67db14577cdb>`_ [2.8m] - Contains tweets containing URLs that have been posted on Twitter during October 2010. In addition to tweets, links of tweeting users were followed, allowing the reconstruction the follower graph of active (tweeting) users. 
+
 * `MovieTweetings <https://github.com/sidooms/MovieTweetings>`_ {`MIT`_} [725k] - A live movie rating dataset collected from Twitter.
 
 * `350k MeToo tweets <https://data.world/rdeeds/350k-metoo-tweets>`_ {?} [350k]
@@ -60,6 +62,8 @@ User datasets
 
 * `Twitter Social Graph <http://an.kaist.ac.kr/traces/WWW2010.html>`_ {?} [41m] - From the `"What is Twitter, a Social Network or a News Media?" paper <http://an.kaist.ac.kr/traces/WWW2010.html>`_.
 
+* `Arizona State University Twitter Data Set <http://academictorrents.com/details/2399616d26eeb4ae9ac3d05c7fdd98958299efa9>`_ [11m]
+
 * `Twitter User Sample (Tweets Loud and Quiet) <https://github.com/jonbruner/twitter-analysis>`_ {`MPL 2.0`_} [400k] - Metadata of ~400,000 Twitter accounts, scraped between September 17, 2013, and October 19, 2013, as part of the work on the `"Tweets loud and quiet" article <https://www.oreilly.com/ideas/tweets-loud-and-quiet>`_. 
 
 * `Higgs Twitter Dataset <http://snap.stanford.edu/data/higgs-twitter.html>`_ {?} [456k] - The Higgs dataset has been built after monitoring the spreading processes on Twitter before, during and after the announcement of the discovery of a new particle with the features of the elusive Higgs boson on 4th July 2012.
@@ -88,8 +92,11 @@ Other Lists
 * `Twitter open datasets <https://opendata.stackexchange.com/questions/1545/twitter-open-datasets>`_ - A question on `opendata.stackexchange <https://opendata.stackexchange.com/>`_.
 
 
-Data Collection Tools
-=====================
+Tools
+=====
+
+Data Collection
+---------------
 
 * `twitter-dataset-collector <https://github.com/socialsensor/twitter-dataset-collector>`_ {`Apache License 2.0`_} [Java] - Facilitates the distribution of Twitter datasets by downloading sets of tweets (if still available) using their ids as input.
 
@@ -99,10 +106,7 @@ Data Collection Tools
 
 
 Analysis
-========
-
-Analysis Tools
---------------
+--------
 
 * `OSU Twitter NLP Tools <https://github.com/aritter/twitter_nlp>`_ - A suite of Twitter NLP tools.
 
@@ -115,11 +119,16 @@ Analysis Tools
 * `Tools by Alan Ritter <http://aritter.github.io/software.html>`_ - Several Twitter-related tools by Alan Ritter.
 
 
-Analysis Articles
------------------
+Academic Papers
+===============
+
+
+Articles & blog posts
+=====================
 
 `Twitter sentiment analysis using Python and NLTK <http://ww1.gbsheli.com/2009/03/twitgraph-en.html>`_
 
+`72 Hours of #Gamersgate <https://medium.com/message/72-hours-of-gamergate-e00513f7cf5d`_
 
 
 
