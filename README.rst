@@ -95,6 +95,8 @@ Other Lists
 
 * `Twitter open datasets <https://opendata.stackexchange.com/questions/1545/twitter-open-datasets>`_ - A question on `opendata.stackexchange <https://opendata.stackexchange.com/>`_.
 
+* `Datasets for PAN's shared tasks on digital text forensics <https://pan.webis.de/data.html>`_ - Not Tweeter, but close.
+
 
 Tools
 =====
