@@ -52,6 +52,8 @@ Tweets datasets (labelled)
 
 * `Weather-sentiment <https://data.world/crowdflower/weather-sentiment>`_
 
+* `Crowdflower Gender Classifier Data <https://data.world/crowdflower/gender-classifier-data>`_ [20k] - Contributors were asked to simply view a Twitter profile and judge whether the user was a male, a female, or a brand (non-individual). The dataset contains 20,000 rows, each with a user name, a random tweet, account profile and image, location, and even link and sidebar color.
+
 * `Sanders Analytics <http://www.sananalytics.com/lab/twitter-sentiment/>`_ {?} [5k]- Use Internet Archive's `Wayback Machine <https://archive.org/web/>`_ to get the data.  The dataset consists of 5513 hand-classified tweets. Each tweet was classified with respect to one of four different topics.
 
 
