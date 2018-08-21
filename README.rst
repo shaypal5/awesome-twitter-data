@@ -42,7 +42,7 @@ Tweet datasets
 Tweet ID datasets
 ~~~~~~~~~~~~~~~~~
 
-* `72 Hours of #Gamersgate <https://medium.com/message/72-hours-of-gamergate-e00513f7cf5d`_ [313K]
+* `72 Hours of #Gamersgate <https://medium.com/message/72-hours-of-gamergate-e00513f7cf5d>`_ [313K]
 
 
 Tweets datasets (labelled)
@@ -64,7 +64,7 @@ User datasets
 
 * `Twitter Social Graph <http://an.kaist.ac.kr/traces/WWW2010.html>`_ {?} [41m] - From the `"What is Twitter, a Social Network or a News Media?" paper <http://an.kaist.ac.kr/traces/WWW2010.html>`_.
 
-* `Arizona State University Twitter Data Set <http://academictorrents.com/details/2399616d26eeb4ae9ac3d05c7fdd98958299efa9>`_ [11m]
+* `Arizona State University Twitter Data Set <http://socialcomputing.asu.edu/datasets/Twitter>`_ [11m] - `Download here <http://academictorrents.com/details/2399616d26eeb4ae9ac3d05c7fdd98958299efa9>`_.
 
 * `Twitter User Sample (Tweets Loud and Quiet) <https://github.com/jonbruner/twitter-analysis>`_ {`MPL 2.0`_} [400k] - Metadata of ~400,000 Twitter accounts, scraped between September 17, 2013, and October 19, 2013, as part of the work on the `"Tweets loud and quiet" article <https://www.oreilly.com/ideas/tweets-loud-and-quiet>`_. 
 
@@ -132,9 +132,9 @@ Academic Papers
 Articles & blog posts
 =====================
 
-`Twitter sentiment analysis using Python and NLTK <http://ww1.gbsheli.com/2009/03/twitgraph-en.html>`_
+* `Twitter sentiment analysis using Python and NLTK <http://ww1.gbsheli.com/2009/03/twitgraph-en.html>`_
 
-`72 Hours of #Gamersgate <https://medium.com/message/72-hours-of-gamergate-e00513f7cf5d`_
+* `72 Hours of #Gamersgate <https://medium.com/message/72-hours-of-gamergate-e00513f7cf5d`_
 
 
 
