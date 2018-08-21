@@ -44,6 +44,8 @@ Tweets datasets (labelled)
 
 * `Weather-sentiment <https://data.world/crowdflower/weather-sentiment>`_
 
+* `Sanders Analytics <http://www.sananalytics.com/lab/twitter-sentiment/>`_ {?} [5k]- Use Internet Archive's `Wayback Machine <https://archive.org/web/>`_ to get the data.  The dataset consists of 5513 hand-classified tweets. Each tweet was classified with respect to one of four different topics.
+
 
 User datasets
 -------------
@@ -90,8 +92,11 @@ Data Collection Tools
 * `Twitter-ratings <https://github.com/sidooms/Twitter-ratings>`_ {`MIT`_} - A collection of Python scripts to download and extract rating datasets from Twitter for multiple websites.
 
 
+Analysis
+========
+
 Analysis Tools
-==============
+--------------
 
 * `OSU Twitter NLP Tools <https://github.com/aritter/twitter_nlp>`_ - A suite of Twitter NLP tools.
 
@@ -102,6 +107,14 @@ Analysis Tools
 * `TwitterGenderPredictor <https://github.com/jtwool/TwitterGenderPredictor>`_
 
 * `Tools by Alan Ritter <http://aritter.github.io/software.html>`_ - Several Twitter-related tools by Alan Ritter.
+
+
+Analysis Articles
+-----------------
+
+`Twitter sentiment analysis using Python and NLTK <http://ww1.gbsheli.com/2009/03/twitgraph-en.html>`_
+
+
 
 
 .. License Links
