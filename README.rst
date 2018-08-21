@@ -44,6 +44,8 @@ Tweet ID datasets
 
 * `72 Hours of #Gamersgate <https://medium.com/message/72-hours-of-gamergate-e00513f7cf5d>`_ [313K]
 
+* `RepLab 2013 Dataset <http://nlp.uned.es/replab2013/>`_ - RepLab 2013 dataset uses Twitter data in English and Spanish (more than 142,000 tweets).
+
 
 Tweets datasets (labelled)
 --------------------------
@@ -109,6 +111,8 @@ Data Collection
 * `Expand The Edinburgh Twitter FSD Corpus <https://gist.github.com/emaadmanzoor/5019020>`_
 
 * `Twitter-ratings <https://github.com/sidooms/Twitter-ratings>`_ {`MIT`_} - A collection of Python scripts to download and extract rating datasets from Twitter for multiple websites.
+
+* `RepLab 2013 Twitter text downloaded <http://nlp.uned.es/replab2013/>`_ - Find it at the bottom of the page.
 
 
 Analysis
