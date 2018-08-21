@@ -50,6 +50,8 @@ User datasets
 
 * `Twitter User Sample (Tweets Loud and Quiet) <https://github.com/jonbruner/twitter-analysis>`_ {`MPL 2.0`_} [400k] - Metadata of ~400,000 Twitter accounts, scraped between September 17, 2013, and October 19, 2013, as part of the work on the `"Tweets loud and quiet" article <https://www.oreilly.com/ideas/tweets-loud-and-quiet>`_. 
 
+`Higgs Twitter Dataset <http://snap.stanford.edu/data/higgs-twitter.html>`_ {?} [456k] - The Higgs dataset has been built after monitoring the spreading processes on Twitter before, during and after the announcement of the discovery of a new particle with the features of the elusive Higgs boson on 4th July 2012.
+
 * `ego-twitter <http://snap.stanford.edu/data/ego-Twitter.html>`_ [80k] - 80K nodes and 1.7 million edges.
 
 
