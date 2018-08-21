@@ -3,6 +3,8 @@ awesome-twitter-data
 
 A list of Twitter datasets and related resources. If you have a resource to add to the list, feel free to open a pull request, or email me at `shay.palachy@gmail.com <shay.palachy@gmail.com>`_.
 
+The license, when known, is given in {curly brackets}. Dataset size is given in [square brackets] when available.
+
 
 .. contents:: Table of Contents
 
@@ -13,42 +15,42 @@ Twitter Datasets
 ================
 
 
-Unlabelled
-----------
+Tweet datasets
+--------------
 
-* `News Tweets <https://github.com/vered1986/Chirps/>`_ {`Apache License 2.0`_} - Updated daily. used in the paper `"Acquiring Predicate Paraphrases from News Tweets" <http://aclweb.org/anthology/S/S17/S17-1019.pdf>`_ by Vered Shwartz, Gabriel Stanovsky and Ido Dagan.
+* `Twitter Event Detection Dataset <http://mir.dcs.gla.ac.uk/resources/>`_  {?} [120m] - A collection of 120 million tweets, with relevance judgements for over 500 events.
 
-* `MovieTweetings <https://github.com/sidooms/MovieTweetings>`_ {`MIT`_} - A live movie rating dataset collected from Twitter.
+* `Chirps <https://github.com/vered1986/Chirps/>`_ {`Apache License 2.0`_} [9m] - News-related tweets. Updated daily. Used in the paper `"Acquiring Predicate Paraphrases from News Tweets" <http://aclweb.org/anthology/S/S17/S17-1019.pdf>`_ by Vered Shwartz, Gabriel Stanovsky and Ido Dagan.
 
-* `Twitter User Sample (Tweets Loud and Quiet) <https://github.com/jonbruner/twitter-analysis>`_ {`MPL 2.0`_} - Metadata of ~400,000 Twitter accounts, scraped between September 17, 2013, and October 19, 2013, as part of the work on the `"Tweets loud and quiet" article <https://www.oreilly.com/ideas/tweets-loud-and-quiet>`_. 
+* `3 million Russian troll tweets <https://github.com/fivethirtyeight/russian-troll-tweets/>`_ {?} [3m] - Released by 538.
 
-* `Twitter Event Detection Dataset <http://mir.dcs.gla.ac.uk/resources/>`_ - A collection of 120 million tweets, with relevance judgements for over 500 events.
+* `MovieTweetings <https://github.com/sidooms/MovieTweetings>`_ {`MIT`_} [725k] - A live movie rating dataset collected from Twitter.
 
-* `3 million Russian troll tweets <https://github.com/fivethirtyeight/russian-troll-tweets/>`_ - Released by 538.
+* `350k MeToo tweets <https://data.world/rdeeds/350k-metoo-tweets>`_ {?} [350k]
 
 * `Elon Musk Tweets-Until 4/6/17 <https://data.world/adamhelsinger/elon-musk-tweets-until-4-6-17>`_
 
 * `2015 New Year's Resolutions <https://data.world/crowdflower/2015-new-years-resolutions>`_
 
-* `350k MeToo tweets <https://data.world/rdeeds/350k-metoo-tweets>`_
-
 * `Trump Tweets, 5/4/09 - 12/5/16 <https://data.world/lovesdata/trump-tweets-5-4-09-12-5-16>`_
 
 
-Labelled
---------
+Tweets datasets (labelled)
+--------------------------
 
 * `Weather-sentiment <https://data.world/crowdflower/weather-sentiment>`_
 
 
-Social Graph Only
------------------
+User datasets
+-------------
 
-* `ego-twitter <http://snap.stanford.edu/data/ego-Twitter.html>`_ - 80K nodes and 1.7 million edges.
+* `Max Plank Institute's Twitter Dataset <http://twitter.mpi-sws.org/>`_ {?} [55m] - **The social graph component only of the following dataset:** 54,981,152 user accounts; 1,963,263,821 social (follow) links. 1,755,925,520 tweets.
 
-* `Twitter Social Graph <http://an.kaist.ac.kr/traces/WWW2010.html>`_ {?} - From the `"What is Twitter, a Social Network or a News Media?" paper <http://an.kaist.ac.kr/traces/WWW2010.html>`_.
+* `Twitter Social Graph <http://an.kaist.ac.kr/traces/WWW2010.html>`_ {?} [41m] - From the `"What is Twitter, a Social Network or a News Media?" paper <http://an.kaist.ac.kr/traces/WWW2010.html>`_.
 
-* `Max Plank Institute's Twitter Dataset <http://twitter.mpi-sws.org/>`_ - **The social graph component only of the following dataset:** 54,981,152 user accounts; 1,963,263,821 social (follow) links. 1,755,925,520 tweets.
+* `Twitter User Sample (Tweets Loud and Quiet) <https://github.com/jonbruner/twitter-analysis>`_ {`MPL 2.0`_} [400k] - Metadata of ~400,000 Twitter accounts, scraped between September 17, 2013, and October 19, 2013, as part of the work on the `"Tweets loud and quiet" article <https://www.oreilly.com/ideas/tweets-loud-and-quiet>`_. 
+
+* `ego-twitter <http://snap.stanford.edu/data/ego-Twitter.html>`_ [80k] - 80K nodes and 1.7 million edges.
 
 
 Lost Datasets
