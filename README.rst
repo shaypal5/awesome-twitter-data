@@ -44,6 +44,8 @@ Labelled
 Social Graph Only
 -----------------
 
+* `ego-twitter <http://snap.stanford.edu/data/ego-Twitter.html>`_ - 80K nodes and 1.7 million edges.
+
 * `Twitter Social Graph <http://an.kaist.ac.kr/traces/WWW2010.html>`_ {?} - From the `"What is Twitter, a Social Network or a News Media?" paper <http://an.kaist.ac.kr/traces/WWW2010.html>`_.
 
 * `Max Plank Institute's Twitter Dataset <http://twitter.mpi-sws.org/>`_ - **The social graph component only of the following dataset:** 54,981,152 user accounts; 1,963,263,821 social (follow) links. 1,755,925,520 tweets.
