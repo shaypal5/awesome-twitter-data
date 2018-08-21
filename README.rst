@@ -69,6 +69,8 @@ Other Lists
 
 * `Free Twitter Datasets by followthehashtag <http://followthehashtag.com/datasets/>`_
 
+* `Twitter open datasets <https://opendata.stackexchange.com/questions/1545/twitter-open-datasets>`_ - A question on `opendata.stackexchange <https://opendata.stackexchange.com/>`_.
+
 
 Data Collection Tools
 =====================
