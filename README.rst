@@ -132,10 +132,22 @@ Analysis
 Academic Papers
 ===============
 
+* Learning Multiview Embeddings of Twitter Users
+
 Demographics Prediction
 -----------------------
 
 * `Developing Age and Gender Predictive Lexica over Social Media, 2014 <http://wwbp.org/papers/emnlp2014_developingLexica.pdf>`_ - We derive predictive lexica (words and weights) for age and gender using regression and classification models from word usage in Facebook, blog, and Twitter data with associated demographiclabels. The lexica, made publicly available, achieved state-of-the-art accuracy in language based age and gender prediction over Facebook and Twitter, and were evaluated for generalization across social media genres as well as in limited message situations.
+
+* Predicting the Demographics of Twitter Users from Website Traffic Data
+
+* Inferring Perceived Demographics from User Emotional Tone and User-Environment Emotional Contrast
+
+* Mining User Interests to Predict Perceived Psycho-Demographic Traits on Twitter
+
+* Why Gender and Age Prediction from Tweets is Hard: Lessons from a Crowdsourcing Experiment
+
+* Who tweets? deriving the demographic characteristics of age, occupation and social class from twitter user meta-data
 
 
 Articles & blog posts
