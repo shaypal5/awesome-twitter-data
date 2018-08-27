@@ -47,7 +47,7 @@ Tweet ID datasets
 * `RepLab 2013 Dataset <http://nlp.uned.es/replab2013/>`_ - RepLab 2013 dataset uses Twitter data in English and Spanish (more than 142,000 tweets).
 
 
-Tweets datasets (labelled)
+Tweet datasets (labelled)
 --------------------------
 
 * `Sentiment140 <http://help.sentiment140.com/for-students/>`_ - Automatically laballed; authors assume that any tweet with positive emoticons, like :), are positive, and tweets with negative emoticons, like :(, are negative. 
