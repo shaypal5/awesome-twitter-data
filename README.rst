@@ -132,6 +132,11 @@ Analysis
 Academic Papers
 ===============
 
+Demographics Prediction
+-----------------------
+
+* `Developing Age and Gender Predictive Lexica over Social Media <http://wwbp.org/papers/emnlp2014_developingLexica.pdf>` - We derive predic-tive lexica (words and weights) for age and gender using regression and classification models from word usage in Facebook, blog, and Twitter data with associated demographiclabels. The lexica, made publicly available, achieved state-of-the-art accuracy in language based age and gender prediction over Facebook and Twitter, and were evaluated for generalization across social media genres as well as in limited message situations.
+
 
 Articles & blog posts
 =====================
