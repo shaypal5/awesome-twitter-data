@@ -30,7 +30,9 @@ Tweet datasets
 
 * `MovieTweetings <https://github.com/sidooms/MovieTweetings>`_ {`MIT`_} [725k] - A live movie rating dataset collected from Twitter.
 
-* `350k MeToo tweets <https://data.world/rdeeds/350k-metoo-tweets>`_ {?} [350k]
+* `Sanders Analytics Sentiment-labelled tweets <https://github.com/zfz/twitter_corpus>`_ {?} [5513]
+
+* `Elon Musk Tweets-Until 4/6/17 <https://data.world/adamhelsinger/elon-musk-tweets-until-4-6-17>`_
 
 * `Elon Musk Tweets-Until 4/6/17 <https://data.world/adamhelsinger/elon-musk-tweets-until-4-6-17>`_
 
