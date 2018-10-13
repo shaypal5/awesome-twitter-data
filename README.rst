@@ -126,7 +126,7 @@ Analysis
 
 * `Twitter-L-LDA <https://github.com/harryaskham/Twitter-L-LDA>`_ {`GPLv3`_} - A set of tools for performing Labeled Latent Dirichlet Allocation on textual datasets, with an emphasis on Twitter profiles. Contains tools for analysing the results of model training and inference.
 
-* `TwitterGenderPredictor <https://github.com/jtwool/TwitterGenderPredictor>`_
+* `TwitterGenderPredictor <https://github.com/jtwool/TwitterGenderPredictor>`_ by `jtwool <https://github.com/jtwool>`_ - Does what it says. Has a `simple package wrapper <https://github.com/shaypal5/speks>`_ by Shay Palachy.
 
 * `Tools by Alan Ritter <http://aritter.github.io/software.html>`_ - Several Twitter-related tools by Alan Ritter.
 
