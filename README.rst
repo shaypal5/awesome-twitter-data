@@ -5,7 +5,7 @@ awesome-twitter-data
 .. |Awesome| image:: https://awesome.re/badge.svg
    :target: https://awesome.re
 
-A list of Twitter datasets and related resources. If you have a resource to add to the list, feel free to open a pull request, or email me at `shay.palachy@gmail.com <shay.palachy@gmail.com>`_.
+A list of Twitter datasets and related resources, released under `CC0 <https://creativecommons.org/publicdomain/zero/1.0/>`_. If you have a resource to add to the list, feel free to open a pull request, or email me at `shay.palachy@gmail.com <shay.palachy@gmail.com>`_.
 
 The license, when known, is given in {curly brackets}. Dataset size is given in [square brackets] when available.
 
