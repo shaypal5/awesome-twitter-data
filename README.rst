@@ -1,6 +1,6 @@
 awesome-twitter-data
 ####################
-|Awesome|
+|Awesome| |CC0|
 
 .. |Awesome| image:: https://awesome.re/badge.svg
    :target: https://awesome.re
@@ -167,6 +167,26 @@ Articles & blog posts
 * `72 Hours of #Gamersgate <https://medium.com/message/72-hours-of-gamergate-e00513f7cf5d>`_
 
 
+Contributing
+============
+
+- Please check for duplicates first.
+- Keep descriptions short, simple and unbiased.
+- Please make an individual commit for each suggestion
+- Add a new category if needed.
+- For datasets, please keep the format when possible: The license, when known, is given in {curly brackets}. Dataset size is given in [square brackets] when available.
+
+Thank you for your suggestions!
+
+
+License
+=======
+|CC0|
+
+.. |CC0| image:: https://licensebuttons.net/p/zero/1.0/88x31.png
+   :target: https://creativecommons.org/publicdomain/zero/1.0/
+
+To the extent possible under law, `Shay Palachy <http://shaypalachy.com>`_ has waived all copyright and related or neighboring rights to this work.
 
 .. License Links
 
