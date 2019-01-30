@@ -22,8 +22,6 @@ Twitter Datasets
 Tweet datasets
 --------------
 
-* `Twitter Event Detection Dataset <http://mir.dcs.gla.ac.uk/resources/>`_  {?} [120m] - A collection of 120 million tweets, with relevance judgements for over 500 events.
-
 * `Chirps <https://github.com/vered1986/Chirps/>`_ {`Apache License 2.0`_} [9m] - News-related tweets. Updated daily. Used in the paper `"Acquiring Predicate Paraphrases from News Tweets" <http://aclweb.org/anthology/S/S17/S17-1019.pdf>`_ by Vered Shwartz, Gabriel Stanovsky and Ido Dagan.
 
 * `Cheng-Caverlee-Lee <https://archive.org/details/twitter_cikm_2010>`_ {?} [5m] - A collection of scraped public twitter updates used in coordination with an academic project to study the geolocation data related to twittering.
@@ -67,6 +65,8 @@ Tweet datasets (labelled)
 
 * `Sanders Analytics <http://www.sananalytics.com/lab/twitter-sentiment/>`_ {?} [5k]- Use Internet Archive's `Wayback Machine <https://archive.org/web/>`_ to get the data.  The dataset consists of 5513 hand-classified tweets. Each tweet was classified with respect to one of four different topics.
 
+* `Geoparse Benchmark Open Dataset <https://revealproject.eu/geoparse-benchmark-open-dataset/>`_ {`BSD-4_Clause`_} [?] - The geoparsing benchmark dataset contains 1000’s of tweets recorded during 4 different natural disasters. These events are Hurricane Sandy 2012, Milan Blackouts 2013, Turkish Earthquake 2012 and the Christchurch Earthquake 2012. Each tweet in the dataset has been manually labelled with location entries at the building, street and region levels to provide a gold standard for evaluation work. The data consists of the full JSON serialized tweet metadata (i.e. including text) with an additional ‘entities’ field of type ‘mentions’ for the ground truth location annotations.
+
 
 User datasets
 -------------
@@ -88,6 +88,8 @@ User datasets
 
 Lost Datasets
 -------------
+
+* `Twitter Event Detection Dataset <http://mir.dcs.gla.ac.uk/resources/>`_  {?} [120m] - A collection of 120 million tweets, with relevance judgements for over 500 events.
 
 * Kwak10www - A dataset consisting of 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets, collected between July 6th, 2009 to July 31st, 2009. From the `"What is Twitter, a Social Network or a News Media?" paper <http://an.kaist.ac.kr/traces/WWW2010.html>`_. The social graph part of that data set is available on `the paper's webpage <http://an.kaist.ac.kr/traces/WWW2010.html>`_.
 
@@ -166,6 +168,8 @@ Articles & blog posts
 
 * `72 Hours of #Gamersgate <https://medium.com/message/72-hours-of-gamergate-e00513f7cf5d>`_
 
+* `A beginner's guide to collecting Twitter data (and a bit of web scraping) <https://knightlab.northwestern.edu/2014/03/15/a-beginners-guide-to-collecting-twitter-data-and-a-bit-of-web-scraping/>`_
+
 
 Contributing
 ============
@@ -200,3 +204,4 @@ To the extent possible under law, `Shay Palachy <http://shaypalachy.com>`_ has w
 .. _MIT: https://en.wikipedia.org/wiki/MIT_License
 .. _CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
 .. _MPL 2.0: https://github.com/jonbruner/twitter-analysis
+.. _BSD-4_Clause: https://en.wikipedia.org/wiki/BSD_licenses#4-clause_license_(original_%22BSD_License%22)
