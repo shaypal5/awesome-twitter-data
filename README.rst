@@ -24,6 +24,8 @@ Tweet datasets
 
 * `Chirps <https://github.com/vered1986/Chirps/>`_ {`Apache License 2.0`_} [9m] - News-related tweets. Updated daily. Used in the paper `"Acquiring Predicate Paraphrases from News Tweets" <http://aclweb.org/anthology/S/S17/S17-1019.pdf>`_ by Vered Shwartz, Gabriel Stanovsky and Ido Dagan.
 
+* `Arab Spring Twitter Dataset <http://dfreelon.org/2012/02/11/arab-spring-twitter-data-now-available-sort-of/>`_ {?} [8m] - Roughly 8 million tweets related to the Arab Spring, separated by country. Contain tweet IDs and twitter IDS, but no tweet contents.
+
 * `Cheng-Caverlee-Lee <https://archive.org/details/twitter_cikm_2010>`_ {?} [5m] - A collection of scraped public twitter updates used in coordination with an academic project to study the geolocation data related to twittering.
 
 * `3 million Russian troll tweets <https://github.com/fivethirtyeight/russian-troll-tweets/>`_ {?} [3m] - Released by 538.
