@@ -99,7 +99,7 @@ Lost Datasets
 
 * burger2011 - A corpus consisting of 213 million tweets from 18.5 million users, in many different languages. Collected as part of `[John D. Burger, John C. Henderson, George Kim, and Guido Zarrella. 2011. Discriminating gender on Twitter. In Proceedings of the Conference on Empirical Methods in Natural Language Processing, pages 1301–1309] <http://www.aclweb.org/anthology/D11-1120>`_.
 
-
+* calufa2011 - 200+ million tweets from 13+ million users, 173 GB uncompressed, mysql format (543 million rows). The archive.org copy has been taken down: https://archive.org/details/2011-05-calufa-twitter-sql. Several mentions on HackerNews: https://news.ycombinator.com/item?id=2633384
 
 Other Lists
 ===========
