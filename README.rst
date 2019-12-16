@@ -101,6 +101,8 @@ Lost Datasets
 
 * calufa2011 - 200+ million tweets from 13+ million users, 173 GB uncompressed, mysql format (543 million rows). The archive.org copy has been taken down: https://archive.org/details/2011-05-calufa-twitter-sql. Several mentions on HackerNews: https://news.ycombinator.com/item?id=2633384
 
+* fifa2014 - 86k tweets from 2014 FIFA World Cup. Described here: https://opendata.stackexchange.com/a/4015, previously available from a data-provider which is no longer online (topsy.com). One potential source is https://ankeshanand.carto.com/tables/fifatweets/public, although the data export is not clear. There are several blogs describing this data and its analysis, so contacting those authors may be a way to revive this dataset.
+
 Other Lists
 ===========
 
