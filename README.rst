@@ -24,6 +24,8 @@ Tweet datasets
 
 * `Chirps <https://github.com/vered1986/Chirps/>`_ {`Apache License 2.0`_} [9m] - News-related tweets. Updated daily. Used in the paper `"Acquiring Predicate Paraphrases from News Tweets" <http://aclweb.org/anthology/S/S17/S17-1019.pdf>`_ by Vered Shwartz, Gabriel Stanovsky and Ido Dagan.
 
+* `COVID-19 Twitter Dataset <https://github.com/thepanacealab/covid19_twitter>`_ {`CC0`_} [100m] - Tweets acquired from the Twitter Stream related to COVID-19 chatter. Can also be found `on Zenodo.org <https://zenodo.org/record/3735274>`_.
+
 * `Arab Spring Twitter Dataset <http://dfreelon.org/2012/02/11/arab-spring-twitter-data-now-available-sort-of/>`_ {?} [8m] - Roughly 8 million tweets related to the Arab Spring, separated by country. Contain tweet IDs and twitter IDS, but no tweet contents.
 
 * `Cheng-Caverlee-Lee <https://archive.org/details/twitter_cikm_2010>`_ {?} [5m] - A collection of scraped public twitter updates used in coordination with an academic project to study the geolocation data related to twittering.
@@ -205,6 +207,7 @@ To the extent possible under law, `Shay Palachy <http://shaypalachy.com>`_ has w
 .. _CC-BY-SA 3.0: https://creativecommons.org/licenses/by-sa/3.0/
 .. _AGPL-3.0: https://opensource.org/licenses/AGPL-3.0
 .. _GPLv3: http://www.gnu.org/copyleft/gpl.html
+.. _CC0:  https://creativecommons.org/publicdomain/zero/1.0/
 .. _CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/
 .. _CC BY-NC 4.0: https://creativecommons.org/licenses/by-nc/4.0/
 .. _Apache License 2.0: https://www.apache.org/licenses/LICENSE-2.0
