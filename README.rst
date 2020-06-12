@@ -57,6 +57,7 @@ Tweet ID datasets
 
 * `RepLab 2013 Dataset <http://nlp.uned.es/replab2013/>`_ - RepLab 2013 dataset uses Twitter data in English and Spanish (more than 142,000 tweets).
 
+* `Documenting the Now Catalog <https://catalog.docnow.io/>`_ - The DocNow Catalog is a collectively curated listing of Twitter datasets (118 Records comprising 4,655,265,177 tweets).
 
 Tweet datasets (labelled)
 --------------------------
