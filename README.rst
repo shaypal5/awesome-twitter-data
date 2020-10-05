@@ -34,10 +34,11 @@ Tweet datasets
 
 * `Lerman Twitter 2010 Dataset <http://academictorrents.com/details/d8b3a315172c8d804528762f37fa67db14577cdb>`_ [2.8m] - Contains tweets containing URLs that have been posted on Twitter during October 2010. In addition to tweets, links of tweeting users were followed, allowing the reconstruction the follower graph of active (tweeting) users. 
 
-
 * `Twitter_2010 <https://www.isi.edu/~lerman/downloads/twitter/twitter2010.html>`_ {?} [2m] - Released by Kristina Lerman at USC.
 
 * `MovieTweetings <https://github.com/sidooms/MovieTweetings>`_ {`MIT`_} [725k] - A live movie rating dataset collected from Twitter.
+
+* `Geotagged COVID-19 Twitter Dataset <http://covid19research.site/geo-tagged_twitter_datasets/>`_ {?} [650k] - Geotagged COVID-19 tweets collected from the Twitter Stream within the United States (50 states and Washington, D.C.).
 
 * `Sanders Analytics Sentiment-labelled tweets <https://github.com/zfz/twitter_corpus>`_ {?} [5513]
 
