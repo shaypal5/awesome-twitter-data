@@ -90,6 +90,8 @@ User datasets
 
 * `ego-twitter <http://snap.stanford.edu/data/ego-Twitter.html>`_ [80k] - 80K nodes and 1.7 million edges.
 
+* `The SNAP 2010 Dataset <https://snap.stanford.edu/data/twitter-2010.html>`_ [41m] - 41m nodes and 1.4 billion edges.
+
 * `soTweet <http://www-sop.inria.fr/members/Arnaud.Legout/Projects/sotweet.html>`_ [full] {X} - This projects includes a Twitter social graph dataset - of the full Twitter network - from 2012. Also includes an anonymized dataset of social clicks from 2016. Both are available on request.
 
 
