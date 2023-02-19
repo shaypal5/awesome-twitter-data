@@ -48,7 +48,7 @@ Tweet datasets
 
 * `Trump Tweets, 5/4/09 - 12/5/16 <https://data.world/lovesdata/trump-tweets-5-4-09-12-5-16>`_
 
-* `ArchiveTeam JSON Download of Twitter Stream, 2011 - ongoing <https://archive.org/search.php?query=twitterstream&sort=-publicdate>`_
+* `ArchiveTeam JSON Download of Twitter Stream, 2011 - 2022 [16bn] <https://archive.org/search.php?query=twitterstream&sort=-publicdate>`_
 
 
 Tweet ID datasets
