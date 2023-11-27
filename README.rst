@@ -62,7 +62,7 @@ Tweet ID datasets
 Tweet datasets (labelled)
 --------------------------
 
-* `Sentiment140 <http://help.sentiment140.com/for-students/>`_ - Automatically laballed; authors assume that any tweet with positive emoticons, like :), are positive, and tweets with negative emoticons, like :(, are negative. 
+* `Sentiment140 <http://help.sentiment140.com/for-students/>`_ - Automatically labelled; authors assume that any tweet with positive emoticons, like :), are positive, and tweets with negative emoticons, like :(, are negative. 
 
 * `Weather-sentiment <https://data.world/crowdflower/weather-sentiment>`_
 
