@@ -137,6 +137,8 @@ Data Collection
 
 * `RepLab 2013 Twitter text downloaded <http://nlp.uned.es/replab2013/>`_ - Find it at the bottom of the page.
 
+* `Xquik <https://github.com/Xquik-dev/x-twitter-scraper>`_ - X/Twitter data extraction platform — 20 bulk tools (followers, replies, quotes, retweets, likes, mentions, lists, communities), REST API, account monitoring, HMAC webhooks.
+
 
 Analysis
 --------
