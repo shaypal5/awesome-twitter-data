@@ -32,7 +32,7 @@ Tweet datasets
 
 * `3 million Russian troll tweets <https://github.com/fivethirtyeight/russian-troll-tweets/>`_ {?} [3m] - Released by 538.
 
-* `Lerman Twitter 2010 Dataset <http://academictorrents.com/details/d8b3a315172c8d804528762f37fa67db14577cdb>`_ [2.8m] - Contains tweets containing URLs that have been posted on Twitter during October 2010. In addition to tweets, links of tweeting users were followed, allowing the reconstruction the follower graph of active (tweeting) users. 
+* `Lerman Twitter 2010 Dataset <http://academictorrents.com/details/d8b3a315172c8d804528762f37fa67db14577cdb>`_ [2.8m] - Contains tweets containing URLs that have been posted on Twitter during October 2010. In addition to tweets, links of tweeting users were followed, allowing the reconstruction the follower graph of active (tweeting) users.
 
 * `Twitter_2010 <https://www.isi.edu/~lerman/downloads/twitter/twitter2010.html>`_ {?} [2m] - Released by Kristina Lerman at USC.
 
@@ -62,7 +62,7 @@ Tweet ID datasets
 Tweet datasets (labelled)
 --------------------------
 
-* `Sentiment140 <http://help.sentiment140.com/for-students/>`_ - Automatically labelled; authors assume that any tweet with positive emoticons, like :), are positive, and tweets with negative emoticons, like :(, are negative. 
+* `Sentiment140 <http://help.sentiment140.com/for-students/>`_ - Automatically labelled; authors assume that any tweet with positive emoticons, like :), are positive, and tweets with negative emoticons, like :(, are negative.
 
 * `Weather-sentiment <https://data.world/crowdflower/weather-sentiment>`_
 
@@ -82,7 +82,7 @@ User datasets
 
 * `Arizona State University Twitter Data Set <http://socialcomputing.asu.edu/datasets/Twitter>`_ [11m] - `Alternate download (via torrent) here <http://academictorrents.com/details/2399616d26eeb4ae9ac3d05c7fdd98958299efa9>`_.
 
-* `Twitter User Sample (Tweets Loud and Quiet) <https://github.com/jonbruner/twitter-analysis>`_ {`MPL 2.0`_} [400k] - Metadata of ~400,000 Twitter accounts, scraped between September 17, 2013, and October 19, 2013, as part of the work on the `"Tweets loud and quiet" article <https://www.oreilly.com/ideas/tweets-loud-and-quiet>`_. 
+* `Twitter User Sample (Tweets Loud and Quiet) <https://github.com/jonbruner/twitter-analysis>`_ {`MPL 2.0`_} [400k] - Metadata of ~400,000 Twitter accounts, scraped between September 17, 2013, and October 19, 2013, as part of the work on the `"Tweets loud and quiet" article <https://www.oreilly.com/ideas/tweets-loud-and-quiet>`_.
 
 * `Higgs Twitter Dataset <http://snap.stanford.edu/data/higgs-twitter.html>`_ {?} [456k] - The Higgs dataset has been built after monitoring the spreading processes on Twitter before, during and after the announcement of the discovery of a new particle with the features of the elusive Higgs boson on 4th July 2012.
 
