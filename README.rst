@@ -137,7 +137,9 @@ Data Collection
 
 * `RepLab 2013 Twitter text downloaded <http://nlp.uned.es/replab2013/>`_ - Find it at the bottom of the page.
 
-* `Xquik <https://github.com/Xquik-dev/x-twitter-scraper>`_ - X/Twitter data extraction platform — 20 bulk tools (followers, replies, quotes, retweets, likes, mentions, lists, communities), REST API, account monitoring, HMAC webhooks.
+* `Xquik <https://github.com/Xquik-dev/x-twitter-scraper>`_ - X/Twitter data extraction platform - 20 bulk tools (followers, replies, quotes, retweets, likes, mentions, lists, communities), REST API, account monitoring, HMAC webhooks.
+
+* `TweetClaw <https://github.com/Xquik-dev/tweetclaw>`_ {`MIT`_} [OpenClaw plugin] - Collect X/Twitter data through Xquik from OpenClaw: search tweets and replies, export followers, look up users, monitor tweets, receive webhooks, review media workflows, and run giveaway draws.
 
 
 Analysis
