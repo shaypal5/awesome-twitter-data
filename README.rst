@@ -137,6 +137,8 @@ Data Collection
 
 * `RepLab 2013 Twitter text downloaded <http://nlp.uned.es/replab2013/>`_ - Find it at the bottom of the page.
 
+* `TwitterAPI.io <https://twitterapi.io>`_ - A real-time Twitter/X data API for collecting tweets, user profiles, followers, advanced search results and the live tweet stream via REST endpoints.
+
 
 Analysis
 --------
