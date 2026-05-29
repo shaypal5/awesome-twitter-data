@@ -58,6 +58,20 @@ Tweet ID datasets
 
 * `RepLab 2013 Dataset <http://nlp.uned.es/replab2013/>`_ - RepLab 2013 dataset uses Twitter data in English and Spanish (more than 142,000 tweets).
 
+* `ODPtweets <https://www.zubiaga.org/datasets/odptweets/>`_ {?} [25m] - ODP-categorized tweet IDs and usernames; tweet text is not redistributed.
+
+* `COVID-19-TweetIDs <https://github.com/echen102/COVID-19-TweetIDs>`_ {`CC BY-NC-SA 4.0`_} [1bn+] - Tweet IDs collected for COVID-19 related research.
+
+* `GeoCoV19 <https://zenodo.org/records/3878599>`_ {`CC-BY 4.0`_} [500m+] - Geolocated tweet IDs related to COVID-19.
+
+* `CoVaxxy <https://github.com/osome-iu/CoVaxxy>`_ {`CC-BY 4.0`_} [198m] - Tweet IDs for COVID-19 vaccine discourse.
+
+* `CrisisLexT26 <https://crisislex.org/data-collections.html#CrisisLexT26>`_ [28k] - Tweet IDs and crisis-related labels for 26 crisis events.
+
+* `CrisisNLP <https://crisisnlp.qcri.org/>`_ [?] - Crisis-related Twitter datasets for natural-language processing and humanitarian response research.
+
+* `TweetsKB <https://data.gesis.org/tweetskb/>`_ {?} [1.5bn] - A large tweet-ID knowledge base with extracted metadata and named entities.
+
 
 Tweet datasets (labelled)
 --------------------------
@@ -71,6 +85,26 @@ Tweet datasets (labelled)
 * `Sanders Analytics <http://www.sananalytics.com/lab/twitter-sentiment/>`_ {?} [5k]- Use Internet Archive's `Wayback Machine <https://archive.org/web/>`_ to get the data.  The dataset consists of 5513 hand-classified tweets. Each tweet was classified with respect to one of four different topics.
 
 * `Geoparse Benchmark Open Dataset <https://revealproject.eu/geoparse-benchmark-open-dataset/>`_ {`BSD-4_Clause`_} [?] - The geoparsing benchmark dataset contains 1000’s of tweets recorded during 4 different natural disasters. These events are Hurricane Sandy 2012, Milan Blackouts 2013, Turkish Earthquake 2012 and the Christchurch Earthquake 2012. Each tweet in the dataset has been manually labelled with location entries at the building, street and region levels to provide a gold standard for evaluation work. The data consists of the full JSON serialized tweet metadata (i.e. including text) with an additional ‘entities’ field of type ‘mentions’ for the ground truth location annotations.
+
+* `TweetEval <https://github.com/cardiffnlp/tweeteval>`_ {?} [?] - Unified Twitter benchmark datasets for seven tweet classification tasks.
+
+* `SemEval-2017 Task 4 Twitter sentiment datasets <https://alt.qcri.org/semeval2017/task4/>`_ {?} [?] - Twitter sentiment classification datasets used in the SemEval-2017 shared task.
+
+* `PHEME rumour scheme dataset <https://figshare.com/articles/dataset/PHEME_rumour_scheme_dataset_journalism_use_case/2068650>`_ {`CC-BY 4.0`_} [?] - Twitter conversation threads annotated for rumour and stance analysis.
+
+* `PHEME veracity dataset <https://figshare.com/articles/dataset/PHEME_dataset_for_Rumour_Detection_and_Veracity_Classification/6392078>`_ {`CC-BY 4.0`_} [?] - Twitter rumour conversations annotated for rumour detection and veracity classification.
+
+* `SemEval-2016 Task 6 stance dataset <http://alt.qcri.org/semeval2016/task6/>`_ {?} [?] - Tweets annotated for stance detection.
+
+* `SenWave <https://github.com/gitdevqiang/SenWave>`_ {`Apache License 2.0`_} [10k] - Tweets annotated with fine-grained COVID-19 sentiment and emotion labels.
+
+* `Twitter US Airline Sentiment <https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment>`_ {?} [14k] - Airline-related tweets labelled for positive, neutral, and negative sentiment.
+
+* `First GOP Debate Twitter Sentiment <https://data.world/crowdflower/first-gop-debate-twitter-sentiment>`_ {?} [13k] - Tweets about the 2016 Republican debate annotated for sentiment.
+
+* `Natural Language Processing with Disaster Tweets <https://www.kaggle.com/competitions/nlp-getting-started>`_ {?} [10k] - Tweets labelled as disaster-related or not disaster-related.
+
+* `Hate Speech and Offensive Language <https://github.com/t-davidson/hate-speech-and-offensive-language>`_ {`MIT`_} [24k] - Tweets labelled as hate speech, offensive language, or neither.
 
 
 User datasets
@@ -93,6 +127,12 @@ User datasets
 * `The SNAP 2010 Dataset <https://snap.stanford.edu/data/twitter-2010.html>`_ [41m] - 41m nodes and 1.4 billion edges.
 
 * `soTweet <http://www-sop.inria.fr/members/Arnaud.Legout/Projects/sotweet.html>`_ [full] {X} - This projects includes a Twitter social graph dataset - of the full Twitter network - from 2012. Also includes an anonymized dataset of social clicks from 2016. Both are available on request.
+
+* `Twitter 15M <http://konect.cc/networks/twitter/>`_ {?} [15m] - Twitter follower network mirrored in the KONECT network collection.
+
+* `twitter-2010 at LAW <https://law.di.unimi.it/webdata/twitter-2010/>`_ {?} [41m] - WebGraph-format release of the 2010 Twitter follower graph.
+
+* `Multiple Social Network Views Dataset <http://mlg.ucd.ie/aggregation/>`_ {?} [5 datasets] - Topical Twitter user-network datasets with manually curated communities and multiple sparse-matrix views.
 
 
 
@@ -118,6 +158,14 @@ Other Lists
 
 * `Free Twitter Datasets by followthehashtag <http://followthehashtag.com/datasets/>`_
 
+* `Netzschleuder Twitter networks <https://networks.skewed.de/?search=Twitter>`_ - A searchable catalog of graph datasets with Twitter-related network entries.
+
+* `KONECT Twitter networks <https://konect.cc/networks/>`_ - Network dataset catalog with several Twitter graph datasets.
+
+* `data.world Twitter datasets <https://data.world/datasets/twitter>`_ - A searchable catalog of Twitter-related datasets on data.world.
+
+* `Kaggle Twitter datasets <https://www.kaggle.com/search?q=twitter+in%3Adatasets>`_ - A searchable catalog of Twitter-related datasets on Kaggle.
+
 * `Twitter open datasets <https://opendata.stackexchange.com/questions/1545/twitter-open-datasets>`_ - A question on `opendata.stackexchange <https://opendata.stackexchange.com/>`_.
 
 * `Datasets for PAN's shared tasks on digital text forensics <https://pan.webis.de/data.html>`_ - Not Tweeter, but close.
@@ -136,6 +184,8 @@ Data Collection
 * `Twitter-ratings <https://github.com/sidooms/Twitter-ratings>`_ {`MIT`_} - A collection of Python scripts to download and extract rating datasets from Twitter for multiple websites.
 
 * `RepLab 2013 Twitter text downloaded <http://nlp.uned.es/replab2013/>`_ - Find it at the bottom of the page.
+
+* `TwitterAPI.io <https://twitterapi.io>`_ - A real-time Twitter/X data API for collecting tweets, user profiles, followers, advanced search results and the live tweet stream via REST endpoints.
 
 * `Xquik <https://github.com/Xquik-dev/x-twitter-scraper>`_ - X/Twitter data extraction platform - 20 bulk tools (followers, replies, quotes, retweets, likes, mentions, lists, communities), REST API, account monitoring, HMAC webhooks.
 
