@@ -9,6 +9,29 @@ A list of Twitter datasets and related resources, released under `CC0 <https://c
 
 The license, when known, is given in {curly brackets}. Dataset size is given in [square brackets] when available.
 
+Entry format and availability
+=============================
+
+Dataset entries should use this format when possible:
+
+``Name`` {license} [size] - Availability; short neutral description.
+
+Availability values used in this list:
+
+* Full text - tweet text or full tweet JSON is available.
+* Tweet IDs - tweet IDs are available and must be hydrated separately.
+* Labelled data - annotations or task labels are available.
+* Metadata - profile, rating, annotation, or derived metadata is available.
+* Benchmark - benchmark tasks, splits, or evaluation labels are available.
+* Graph - user, follow, mention, retweet, list, or other network data is available.
+* By request - the dataset is described publicly but access requires contacting the authors.
+* Partially available - only a documented subset of the original dataset is available.
+* Lost - the dataset is no longer available from a known working source.
+
+Values can be combined when a resource provides multiple data types or access modes.
+
+Prefer primary dataset pages in the dataset sections. Mirrors, warehouses, and broad search pages belong in `Other Lists`_ unless they provide a clearly distinct release.
+
 
 .. contents:: Table of Contents
 
@@ -19,148 +42,150 @@ Twitter Datasets
 ================
 
 
-Tweet datasets
---------------
+Tweet text and full-content datasets
+------------------------------------
 
-* `Chirps <https://github.com/vered1986/Chirps/>`_ {`Apache License 2.0`_} [9m] - News-related tweets. Updated daily. Used in the paper `"Acquiring Predicate Paraphrases from News Tweets" <http://aclweb.org/anthology/S/S17/S17-1019.pdf>`_ by Vered Shwartz, Gabriel Stanovsky and Ido Dagan.
+* `3 million Russian troll tweets <https://github.com/fivethirtyeight/russian-troll-tweets/>`_ {?} [3m] - Full text; released by 538.
 
-* `COVID-19 Twitter Dataset <https://github.com/thepanacealab/covid19_twitter>`_ {`CC0`_} [100m] - Tweets acquired from the Twitter Stream related to COVID-19 chatter. Can also be found `on Zenodo.org <https://zenodo.org/record/3735274>`_.
+* `ArchiveTeam JSON Download of Twitter Stream, 2011 - 2022 [16bn] <https://archive.org/search.php?query=twitterstream&sort=-publicdate>`_ - Full text; archived Twitter stream JSON dumps.
 
-* `Arab Spring Twitter Dataset <http://dfreelon.org/2012/02/11/arab-spring-twitter-data-now-available-sort-of/>`_ {?} [8m] - Roughly 8 million tweets related to the Arab Spring, separated by country. Contain tweet IDs and twitter IDS, but no tweet contents.
+* `Cheng-Caverlee-Lee <https://archive.org/details/twitter_cikm_2010>`_ {?} [5m] - Full text; scraped public Twitter updates used in a geolocation academic project.
 
-* `Cheng-Caverlee-Lee <https://archive.org/details/twitter_cikm_2010>`_ {?} [5m] - A collection of scraped public twitter updates used in coordination with an academic project to study the geolocation data related to twittering.
+* `Chirps <https://github.com/vered1986/Chirps/>`_ {`Apache License 2.0`_} [9m] - Full text; news-related tweets, updated daily. Used in the paper `"Acquiring Predicate Paraphrases from News Tweets" <http://aclweb.org/anthology/S/S17/S17-1019.pdf>`_ by Vered Shwartz, Gabriel Stanovsky and Ido Dagan.
 
-* `3 million Russian troll tweets <https://github.com/fivethirtyeight/russian-troll-tweets/>`_ {?} [3m] - Released by 538.
+* `Elon Musk Tweets-Until 4/6/17 <https://data.world/adamhelsinger/elon-musk-tweets-until-4-6-17>`_ - Full text; Elon Musk tweets through April 6, 2017.
 
-* `Lerman Twitter 2010 Dataset <http://academictorrents.com/details/d8b3a315172c8d804528762f37fa67db14577cdb>`_ [2.8m] - Contains tweets containing URLs that have been posted on Twitter during October 2010. In addition to tweets, links of tweeting users were followed, allowing the reconstruction the follower graph of active (tweeting) users.
+* `Lerman Twitter 2010 Dataset <http://academictorrents.com/details/d8b3a315172c8d804528762f37fa67db14577cdb>`_ [2.8m] - Full text; Graph; tweets containing URLs posted during October 2010, plus follower links for active users.
 
-* `Twitter_2010 <https://www.isi.edu/~lerman/downloads/twitter/twitter2010.html>`_ {?} [2m] - Released by Kristina Lerman at USC.
+* `Trump Tweets, 5/4/09 - 12/5/16 <https://data.world/lovesdata/trump-tweets-5-4-09-12-5-16>`_ - Full text; Donald Trump tweets from May 4, 2009 to December 5, 2016.
 
-* `MovieTweetings <https://github.com/sidooms/MovieTweetings>`_ {`MIT`_} [725k] - A live movie rating dataset collected from Twitter.
-
-* `Geotagged COVID-19 Twitter Dataset <http://covid19research.site/geo-tagged_twitter_datasets/>`_ {?} [650k] - Geotagged COVID-19 tweets collected from the Twitter Stream within the United States (50 states and Washington, D.C.).
-
-* `Sanders Analytics Sentiment-labelled tweets <https://github.com/zfz/twitter_corpus>`_ {?} [5513]
-
-* `Elon Musk Tweets-Until 4/6/17 <https://data.world/adamhelsinger/elon-musk-tweets-until-4-6-17>`_
-
-* `2015 New Year's Resolutions <https://data.world/crowdflower/2015-new-years-resolutions>`_
-
-* `Trump Tweets, 5/4/09 - 12/5/16 <https://data.world/lovesdata/trump-tweets-5-4-09-12-5-16>`_
-
-* `ArchiveTeam JSON Download of Twitter Stream, 2011 - 2022 [16bn] <https://archive.org/search.php?query=twitterstream&sort=-publicdate>`_
+* `Twitter_2010 <https://www.isi.edu/~lerman/downloads/twitter/twitter2010.html>`_ {?} [2m] - Full text; released by Kristina Lerman at USC.
 
 
 Tweet ID datasets
-~~~~~~~~~~~~~~~~~
+-----------------
 
-* `72 Hours of #Gamersgate <https://medium.com/message/72-hours-of-gamergate-e00513f7cf5d>`_ [313K]
+* `72 Hours of #Gamersgate <https://medium.com/message/72-hours-of-gamergate-e00513f7cf5d>`_ [313K] - Tweet IDs; tweets from a 72-hour #Gamergate collection.
 
-* `RepLab 2013 Dataset <http://nlp.uned.es/replab2013/>`_ - RepLab 2013 dataset uses Twitter data in English and Spanish (more than 142,000 tweets).
+* `Arab Spring Twitter Dataset <http://dfreelon.org/2012/02/11/arab-spring-twitter-data-now-available-sort-of/>`_ {?} [8m] - Tweet IDs; Arab Spring tweets separated by country, without tweet contents.
 
-* `ODPtweets <https://www.zubiaga.org/datasets/odptweets/>`_ {?} [25m] - ODP-categorized tweet IDs and usernames; tweet text is not redistributed.
+* `COVID-19 Twitter Dataset <https://github.com/thepanacealab/covid19_twitter>`_ {`CC0`_} [100m] - Tweet IDs; COVID-19 chatter from the Twitter Stream. Can also be found `on Zenodo.org <https://zenodo.org/record/3735274>`_.
 
-* `COVID-19-TweetIDs <https://github.com/echen102/COVID-19-TweetIDs>`_ {`CC BY-NC-SA 4.0`_} [1bn+] - Tweet IDs collected for COVID-19 related research.
+* `COVID-19-TweetIDs <https://github.com/echen102/COVID-19-TweetIDs>`_ {`CC BY-NC-SA 4.0`_} [1bn+] - Tweet IDs; COVID-19 related research collection.
 
-* `GeoCoV19 <https://zenodo.org/records/3878599>`_ {`CC-BY 4.0`_} [500m+] - Geolocated tweet IDs related to COVID-19.
+* `CoVaxxy <https://github.com/osome-iu/CoVaxxy>`_ {`CC-BY 4.0`_} [198m] - Tweet IDs; COVID-19 vaccine discourse.
 
-* `CoVaxxy <https://github.com/osome-iu/CoVaxxy>`_ {`CC-BY 4.0`_} [198m] - Tweet IDs for COVID-19 vaccine discourse.
+* `CrisisLexT26 <https://crisislex.org/data-collections.html#CrisisLexT26>`_ [28k] - Tweet IDs; Labelled data; crisis-related tweets for 26 crisis events.
 
-* `CrisisLexT26 <https://crisislex.org/data-collections.html#CrisisLexT26>`_ [28k] - Tweet IDs and crisis-related labels for 26 crisis events.
+* `CrisisNLP <https://crisisnlp.qcri.org/>`_ [?] - Tweet IDs; crisis-related datasets for NLP and humanitarian response research.
 
-* `CrisisNLP <https://crisisnlp.qcri.org/>`_ [?] - Crisis-related Twitter datasets for natural-language processing and humanitarian response research.
+* `GeoCoV19 <https://zenodo.org/records/3878599>`_ {`CC-BY 4.0`_} [500m+] - Tweet IDs; geolocated COVID-19 tweets.
 
-* `TweetsKB <https://data.gesis.org/tweetskb/>`_ {?} [1.5bn] - A large tweet-ID knowledge base with extracted metadata and named entities.
+* `Geotagged COVID-19 Twitter Dataset <http://covid19research.site/geo-tagged_twitter_datasets/>`_ {?} [650k] - Tweet IDs; geotagged COVID-19 tweets from the United States.
+
+* `ODPtweets <https://www.zubiaga.org/datasets/odptweets/>`_ {?} [25m] - Tweet IDs; ODP-categorized tweet IDs and usernames, without redistributed tweet text.
+
+* `RepLab 2013 Dataset <http://nlp.uned.es/replab2013/>`_ - Tweet IDs; English and Spanish Twitter data with more than 142,000 tweets.
+
+* `TweetsKB <https://data.gesis.org/tweetskb/>`_ {?} [1.5bn] - Tweet IDs; Metadata; large knowledge base with extracted metadata and named entities.
 
 
-Tweet datasets (labelled)
+Labelled and benchmark datasets
+-------------------------------
+
+* `2015 New Year's Resolutions <https://data.world/crowdflower/2015-new-years-resolutions>`_ - Labelled data; tweets about New Year's resolutions.
+
+* `Crowdflower Gender Classifier Data <https://data.world/crowdflower/gender-classifier-data>`_ [20k] - Labelled data; Twitter profile gender classifier dataset with username, tweet, profile metadata, image, location, and profile colors.
+
+* `First GOP Debate Twitter Sentiment <https://data.world/crowdflower/first-gop-debate-twitter-sentiment>`_ {?} [13k] - Labelled data; tweets about the 2016 Republican debate annotated for sentiment.
+
+* `Geoparse Benchmark Open Dataset <https://revealproject.eu/geoparse-benchmark-open-dataset/>`_ {`BSD-4_Clause`_} [?] - Labelled data; disaster tweets manually labelled with location entries at building, street, and region levels.
+
+* `Hate Speech and Offensive Language <https://github.com/t-davidson/hate-speech-and-offensive-language>`_ {`MIT`_} [24k] - Labelled data; tweets labelled as hate speech, offensive language, or neither.
+
+* `Natural Language Processing with Disaster Tweets <https://www.kaggle.com/competitions/nlp-getting-started>`_ {?} [10k] - Labelled data; tweets labelled as disaster-related or not disaster-related.
+
+* `PHEME rumour scheme dataset <https://figshare.com/articles/dataset/PHEME_rumour_scheme_dataset_journalism_use_case/2068650>`_ {`CC-BY 4.0`_} [?] - Labelled data; Twitter conversation threads annotated for rumour and stance analysis.
+
+* `PHEME veracity dataset <https://figshare.com/articles/dataset/PHEME_dataset_for_Rumour_Detection_and_Veracity_Classification/6392078>`_ {`CC-BY 4.0`_} [?] - Labelled data; Twitter rumour conversations annotated for rumour detection and veracity classification.
+
+* `Sanders Analytics <http://www.sananalytics.com/lab/twitter-sentiment/>`_ {?} [5k] - Labelled data; hand-classified tweets across four topics. Use Internet Archive's `Wayback Machine <https://archive.org/web/>`_ to get the data.
+
+* `Sanders Analytics Sentiment-labelled tweets <https://github.com/zfz/twitter_corpus>`_ {?} [5513] - Labelled data; sentiment-labelled tweets.
+
+* `SemEval-2016 Task 6 stance dataset <http://alt.qcri.org/semeval2016/task6/>`_ {?} [?] - Labelled data; tweets annotated for stance detection.
+
+* `SemEval-2017 Task 4 Twitter sentiment datasets <https://alt.qcri.org/semeval2017/task4/>`_ {?} [?] - Labelled data; Twitter sentiment classification datasets used in the SemEval-2017 shared task.
+
+* `SenWave <https://github.com/gitdevqiang/SenWave>`_ {`Apache License 2.0`_} [10k] - Labelled data; tweets annotated with fine-grained COVID-19 sentiment and emotion labels.
+
+* `Sentiment140 <http://help.sentiment140.com/for-students/>`_ - Labelled data; automatically labelled using positive and negative emoticons.
+
+* `TweetEval <https://github.com/cardiffnlp/tweeteval>`_ {?} [?] - Benchmark; Labelled data; unified Twitter benchmark datasets for seven tweet classification tasks.
+
+* `Twitter US Airline Sentiment <https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment>`_ {?} [14k] - Labelled data; airline-related tweets labelled for positive, neutral, and negative sentiment.
+
+* `Weather-sentiment <https://data.world/crowdflower/weather-sentiment>`_ - Labelled data; weather-related tweets annotated for sentiment.
+
+
+Metadata, ratings, and user datasets
+------------------------------------
+
+* `MovieTweetings <https://github.com/sidooms/MovieTweetings>`_ {`MIT`_} [725k] - Metadata; live movie rating dataset collected from Twitter.
+
+* `Twitter User Sample (Tweets Loud and Quiet) <https://github.com/jonbruner/twitter-analysis>`_ {`MPL 2.0`_} [400k] - Metadata; Twitter account metadata scraped between September 17, 2013 and October 19, 2013 for the `"Tweets loud and quiet" article <https://www.oreilly.com/ideas/tweets-loud-and-quiet>`_.
+
+
+Graph and network datasets
 --------------------------
 
-* `Sentiment140 <http://help.sentiment140.com/for-students/>`_ - Automatically labelled; authors assume that any tweet with positive emoticons, like :), are positive, and tweets with negative emoticons, like :(, are negative.
+* `Arizona State University Twitter Data Set <http://socialcomputing.asu.edu/datasets/Twitter>`_ [11m] - Graph; Twitter network dataset. `Alternate download (via torrent) here <http://academictorrents.com/details/2399616d26eeb4ae9ac3d05c7fdd98958299efa9>`_.
 
-* `Weather-sentiment <https://data.world/crowdflower/weather-sentiment>`_
+* `ego-twitter <http://snap.stanford.edu/data/ego-Twitter.html>`_ [80k] - Graph; 80K nodes and 1.7 million edges.
 
-* `Crowdflower Gender Classifier Data <https://data.world/crowdflower/gender-classifier-data>`_ [20k] - Contributors were asked to simply view a Twitter profile and judge whether the user was a male, a female, or a brand (non-individual). The dataset contains 20,000 rows, each with a user name, a random tweet, account profile and image, location, and even link and sidebar color.
+* `Higgs Twitter Dataset <http://snap.stanford.edu/data/higgs-twitter.html>`_ {?} [456k] - Graph; Twitter activity and social network data around the July 2012 Higgs boson announcement.
 
-* `Sanders Analytics <http://www.sananalytics.com/lab/twitter-sentiment/>`_ {?} [5k]- Use Internet Archive's `Wayback Machine <https://archive.org/web/>`_ to get the data.  The dataset consists of 5513 hand-classified tweets. Each tweet was classified with respect to one of four different topics.
+* Kwak10www {?} [41.7m users] - Partially available; Graph; the social graph remains available from the `"What is Twitter, a Social Network or a News Media?" paper page <http://an.kaist.ac.kr/traces/WWW2010.html>`_, while the full tweet, profile, and trend dataset is otherwise unavailable.
 
-* `Geoparse Benchmark Open Dataset <https://revealproject.eu/geoparse-benchmark-open-dataset/>`_ {`BSD-4_Clause`_} [?] - The geoparsing benchmark dataset contains 1000’s of tweets recorded during 4 different natural disasters. These events are Hurricane Sandy 2012, Milan Blackouts 2013, Turkish Earthquake 2012 and the Christchurch Earthquake 2012. Each tweet in the dataset has been manually labelled with location entries at the building, street and region levels to provide a gold standard for evaluation work. The data consists of the full JSON serialized tweet metadata (i.e. including text) with an additional ‘entities’ field of type ‘mentions’ for the ground truth location annotations.
+* `Max Plank Institute's Twitter Dataset <http://twitter.mpi-sws.org/>`_ {?} [55m] - Graph; social graph component of a larger dataset with 54,981,152 user accounts and 1,963,263,821 social links.
 
-* `TweetEval <https://github.com/cardiffnlp/tweeteval>`_ {?} [?] - Unified Twitter benchmark datasets for seven tweet classification tasks.
+* `Multiple Social Network Views Dataset <http://mlg.ucd.ie/aggregation/>`_ {?} [5 datasets] - Graph; topical Twitter user-network datasets with manually curated communities and multiple sparse-matrix views.
 
-* `SemEval-2017 Task 4 Twitter sentiment datasets <https://alt.qcri.org/semeval2017/task4/>`_ {?} [?] - Twitter sentiment classification datasets used in the SemEval-2017 shared task.
+* `soTweet <http://www-sop.inria.fr/members/Arnaud.Legout/Projects/sotweet.html>`_ [full] {X} - By request; Graph; full Twitter social graph from 2012, plus anonymized social-click data from 2016.
 
-* `PHEME rumour scheme dataset <https://figshare.com/articles/dataset/PHEME_rumour_scheme_dataset_journalism_use_case/2068650>`_ {`CC-BY 4.0`_} [?] - Twitter conversation threads annotated for rumour and stance analysis.
+* `The SNAP 2010 Dataset <https://snap.stanford.edu/data/twitter-2010.html>`_ [41m] - Graph; 41m nodes and 1.4 billion edges.
 
-* `PHEME veracity dataset <https://figshare.com/articles/dataset/PHEME_dataset_for_Rumour_Detection_and_Veracity_Classification/6392078>`_ {`CC-BY 4.0`_} [?] - Twitter rumour conversations annotated for rumour detection and veracity classification.
+* `Twitter 15M <http://konect.cc/networks/twitter/>`_ {?} [15m] - Graph; Twitter follower network mirrored in the KONECT network collection.
 
-* `SemEval-2016 Task 6 stance dataset <http://alt.qcri.org/semeval2016/task6/>`_ {?} [?] - Tweets annotated for stance detection.
+* `Twitter Data - NIPS 2012 <http://academictorrents.com/details/046cf7a75db2a530b1505a4ce125fbe0031f4661>`_ [81k] - Graph; Twitter circles/lists dataset with node features, circles, and ego networks.
 
-* `SenWave <https://github.com/gitdevqiang/SenWave>`_ {`Apache License 2.0`_} [10k] - Tweets annotated with fine-grained COVID-19 sentiment and emotion labels.
+* `Twitter Social Graph <http://an.kaist.ac.kr/traces/WWW2010.html>`_ {?} [41m] - Graph; social graph from the `"What is Twitter, a Social Network or a News Media?" paper <http://an.kaist.ac.kr/traces/WWW2010.html>`_.
 
-* `Twitter US Airline Sentiment <https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment>`_ {?} [14k] - Airline-related tweets labelled for positive, neutral, and negative sentiment.
+* `twitter-2010 at LAW <https://law.di.unimi.it/webdata/twitter-2010/>`_ {?} [41m] - Graph; WebGraph-format release of the 2010 Twitter follower graph.
 
-* `First GOP Debate Twitter Sentiment <https://data.world/crowdflower/first-gop-debate-twitter-sentiment>`_ {?} [13k] - Tweets about the 2016 Republican debate annotated for sentiment.
+Lost or unavailable datasets
+-----------------------------
 
-* `Natural Language Processing with Disaster Tweets <https://www.kaggle.com/competitions/nlp-getting-started>`_ {?} [10k] - Tweets labelled as disaster-related or not disaster-related.
+* burger2011 - Lost; 213 million tweets from 18.5 million users in many languages. Collected as part of `[John D. Burger, John C. Henderson, George Kim, and Guido Zarrella. 2011. Discriminating gender on Twitter. In Proceedings of the Conference on Empirical Methods in Natural Language Processing, pages 1301–1309] <http://www.aclweb.org/anthology/D11-1120>`_.
 
-* `Hate Speech and Offensive Language <https://github.com/t-davidson/hate-speech-and-offensive-language>`_ {`MIT`_} [24k] - Tweets labelled as hate speech, offensive language, or neither.
+* calufa2011 - Lost; 200+ million tweets from 13+ million users, 173 GB uncompressed, mysql format (543 million rows). The archive.org copy has been taken down: https://archive.org/details/2011-05-calufa-twitter-sql. Several mentions on HackerNews: https://news.ycombinator.com/item?id=2633384
 
+* fifa2014 - Lost; 86k tweets from 2014 FIFA World Cup. Described here: https://opendata.stackexchange.com/a/4015, previously available from a data-provider which is no longer online (topsy.com). One potential source is https://ankeshanand.carto.com/tables/fifatweets/public, although the data export is not clear.
 
-User datasets
--------------
+* `Twitter Event Detection Dataset <http://mir.dcs.gla.ac.uk/resources/>`_  {?} [120m] - Lost; collection of 120 million tweets, with relevance judgements for over 500 events.
 
-* `Max Plank Institute's Twitter Dataset <http://twitter.mpi-sws.org/>`_ {?} [55m] - **The social graph component only of the following dataset:** 54,981,152 user accounts; 1,963,263,821 social (follow) links. 1,755,925,520 tweets.
-
-* `Twitter Social Graph <http://an.kaist.ac.kr/traces/WWW2010.html>`_ {?} [41m] - From the `"What is Twitter, a Social Network or a News Media?" paper <http://an.kaist.ac.kr/traces/WWW2010.html>`_.
-
-* `Arizona State University Twitter Data Set <http://socialcomputing.asu.edu/datasets/Twitter>`_ [11m] - `Alternate download (via torrent) here <http://academictorrents.com/details/2399616d26eeb4ae9ac3d05c7fdd98958299efa9>`_.
-
-* `Twitter User Sample (Tweets Loud and Quiet) <https://github.com/jonbruner/twitter-analysis>`_ {`MPL 2.0`_} [400k] - Metadata of ~400,000 Twitter accounts, scraped between September 17, 2013, and October 19, 2013, as part of the work on the `"Tweets loud and quiet" article <https://www.oreilly.com/ideas/tweets-loud-and-quiet>`_.
-
-* `Higgs Twitter Dataset <http://snap.stanford.edu/data/higgs-twitter.html>`_ {?} [456k] - The Higgs dataset has been built after monitoring the spreading processes on Twitter before, during and after the announcement of the discovery of a new particle with the features of the elusive Higgs boson on 4th July 2012.
-
-* `Twitter Data - NIPS 2012	<http://academictorrents.com/details/046cf7a75db2a530b1505a4ce125fbe0031f4661>`_ [81k] - This dataset consists of 'circles' (or 'lists') from Twitter. Twitter data was crawled from public sources. The dataset includes node features (profiles), circles, and ego networks.
-
-* `ego-twitter <http://snap.stanford.edu/data/ego-Twitter.html>`_ [80k] - 80K nodes and 1.7 million edges.
-
-* `The SNAP 2010 Dataset <https://snap.stanford.edu/data/twitter-2010.html>`_ [41m] - 41m nodes and 1.4 billion edges.
-
-* `soTweet <http://www-sop.inria.fr/members/Arnaud.Legout/Projects/sotweet.html>`_ [full] {X} - This projects includes a Twitter social graph dataset - of the full Twitter network - from 2012. Also includes an anonymized dataset of social clicks from 2016. Both are available on request.
-
-* `Twitter 15M <http://konect.cc/networks/twitter/>`_ {?} [15m] - Twitter follower network mirrored in the KONECT network collection.
-
-* `twitter-2010 at LAW <https://law.di.unimi.it/webdata/twitter-2010/>`_ {?} [41m] - WebGraph-format release of the 2010 Twitter follower graph.
-
-* `Multiple Social Network Views Dataset <http://mlg.ucd.ie/aggregation/>`_ {?} [5 datasets] - Topical Twitter user-network datasets with manually curated communities and multiple sparse-matrix views.
-
-
-
-Lost Datasets
--------------
-
-* `Twitter Event Detection Dataset <http://mir.dcs.gla.ac.uk/resources/>`_  {?} [120m] - A collection of 120 million tweets, with relevance judgements for over 500 events.
-
-* Kwak10www - A dataset consisting of 41.7 million user profiles, 1.47 billion social relations, 4,262 trending topics, and 106 million tweets, collected between July 6th, 2009 to July 31st, 2009. From the `"What is Twitter, a Social Network or a News Media?" paper <http://an.kaist.ac.kr/traces/WWW2010.html>`_. The social graph part of that data set is available on `the paper's webpage <http://an.kaist.ac.kr/traces/WWW2010.html>`_.
-
-* `twitter7 <http://snap.stanford.edu/data/twitter7.html>`_ - A dataset consisting of nearly 580 million Twitter posts from 20 million users covering a 8 month period from June 2009 to February 2010. Estimated to be about 20-30% of all posts published on Twitter during that time frame. Created as part of [`J. Yang, J. Leskovec. Temporal Variation in Online Media. ACM International Conference on Web Search and Data Mining (WSDM '11), 2011. <http://ilpubs.stanford.edu:8090/984/1/paper-memeshapes.pdf>`_].
-
-* burger2011 - A corpus consisting of 213 million tweets from 18.5 million users, in many different languages. Collected as part of `[John D. Burger, John C. Henderson, George Kim, and Guido Zarrella. 2011. Discriminating gender on Twitter. In Proceedings of the Conference on Empirical Methods in Natural Language Processing, pages 1301–1309] <http://www.aclweb.org/anthology/D11-1120>`_.
-
-* calufa2011 - 200+ million tweets from 13+ million users, 173 GB uncompressed, mysql format (543 million rows). The archive.org copy has been taken down: https://archive.org/details/2011-05-calufa-twitter-sql. Several mentions on HackerNews: https://news.ycombinator.com/item?id=2633384
-
-* fifa2014 - 86k tweets from 2014 FIFA World Cup. Described here: https://opendata.stackexchange.com/a/4015, previously available from a data-provider which is no longer online (topsy.com). One potential source is https://ankeshanand.carto.com/tables/fifatweets/public, although the data export is not clear. There are several blogs describing this data and its analysis, so contacting those authors may be a way to revive this dataset.
+* `twitter7 <http://snap.stanford.edu/data/twitter7.html>`_ - Lost; nearly 580 million Twitter posts from 20 million users from June 2009 to February 2010. Created as part of [`J. Yang, J. Leskovec. Temporal Variation in Online Media. ACM International Conference on Web Search and Data Mining (WSDM '11), 2011. <http://ilpubs.stanford.edu:8090/984/1/paper-memeshapes.pdf>`_].
 
 Other Lists
 ===========
 
-* `Tweet ID Datasets <https://www.docnow.io/catalog/>`_ {`CC-BY 4.0`_} - A catalog of Twitter ID (i.e. contentless) datasets that are publicly available on the web.
+* `Tweet ID Datasets <https://catalog.docnow.io/>`_ {`CC-BY 4.0`_} - A catalog of Twitter ID (i.e. contentless) datasets that are publicly available on the web.
 
 * `Free Twitter Datasets by followthehashtag <http://followthehashtag.com/datasets/>`_
 
 * `Netzschleuder Twitter networks <https://networks.skewed.de/?search=Twitter>`_ - A searchable catalog of graph datasets with Twitter-related network entries.
 
-* `KONECT Twitter networks <https://konect.cc/networks/>`_ - Network dataset catalog with several Twitter graph datasets.
+* `KONECT Twitter networks <http://konect.cc/networks/>`_ - Network dataset catalog with several Twitter graph datasets.
 
 * `data.world Twitter datasets <https://data.world/datasets/twitter>`_ - A searchable catalog of Twitter-related datasets on data.world.
 
@@ -244,7 +269,11 @@ Contributing
 - Keep descriptions short, simple and unbiased.
 - Please make an individual commit for each suggestion
 - Add a new category if needed.
-- For datasets, please keep the format when possible: The license, when known, is given in {curly brackets}. Dataset size is given in [square brackets] when available.
+- Prefer primary dataset pages. Add mirrors, warehouses, and broad search pages to `Other Lists`_ unless they provide a clearly distinct release.
+- For datasets, please keep the format when possible: ``Name`` {license} [size] - Availability; short neutral description.
+- For Twitter/X datasets, state whether the resource provides full tweet text, tweet IDs only, metadata, graph data, or access by request.
+- Include license and availability details when the source states them. Use {?} only when the license is not clear.
+- If a source is unavailable, add it to `Lost or unavailable datasets`_ instead of a live dataset section.
 
 Thank you for your suggestions!
 
@@ -263,7 +292,7 @@ To the extent possible under law, `Shay Palachy <http://shaypalachy.com>`_ has w
 .. _Public Domain: https://en.wikipedia.org/wiki/Public_domain
 .. _CC-BY-SA 3.0: https://creativecommons.org/licenses/by-sa/3.0/
 .. _AGPL-3.0: https://opensource.org/licenses/AGPL-3.0
-.. _GPLv3: http://www.gnu.org/copyleft/gpl.html
+.. _GPLv3: https://www.gnu.org/licenses/gpl-3.0.en.html
 .. _CC0:  https://creativecommons.org/publicdomain/zero/1.0/
 .. _CC BY-NC-SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/
 .. _CC BY-NC 4.0: https://creativecommons.org/licenses/by-nc/4.0/

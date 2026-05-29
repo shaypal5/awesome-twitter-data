@@ -1,0 +1,41 @@
+# Keep accepted statuses strict. Bot-blocked or rate-limited sites should be
+# excluded explicitly below rather than accepted globally.
+accept = ["200..=204"]
+
+# A few older sites are slow from GitHub-hosted runners. Retries reduce false
+# negatives without hiding permanently broken links.
+max_retries = 2
+retry_wait_time = 2
+timeout = 20
+
+exclude = [
+  # Historical dataset pages kept as provenance even though the original pages
+  # are down, blocked, or only intermittently reachable.
+  'http://dfreelon\.org/2012/02/11/arab-spring-twitter-data-now-available-sort-of/',
+  'http://covid19research\.site/geo-tagged_twitter_datasets/',
+  'http://academictorrents\.com/details/d8b3a315172c8d804528762f37fa67db14577cdb',
+  'https://revealproject\.eu/geoparse-benchmark-open-dataset/',
+  'http://socialcomputing\.asu\.edu/datasets/Twitter',
+  'http://an\.kaist\.ac\.kr/traces/WWW2010\.html',
+  'http://mir\.dcs\.gla\.ac\.uk/resources/',
+  'http://ilpubs\.stanford\.edu:8090/984/1/paper-memeshapes\.pdf',
+  'https://archive\.org/details/2011-05-calufa-twitter-sql',
+  'https://ankeshanand\.carto\.com/tables/fifatweets/public',
+  'http://followthehashtag\.com/datasets/',
+  'http://wwbp\.org/papers/emnlp2014_developingLexica\.pdf',
+  'http://ww1\.gbsheli\.com/2009/03/twitgraph-en\.html',
+
+  # Bot-blocked, rate-limited, or intermittently unreachable academic/archive
+  # sites. These are intentionally not accepted via global 403/429 allowances.
+  'https://crisisnlp\.qcri\.org/',
+  'http://alt\.qcri\.org/semeval2016/task6/',
+  'https://alt\.qcri\.org/semeval2017/task4/',
+  'https://medium\.com/message/72-hours-of-gamergate-e00513f7cf5d',
+  'https://news\.ycombinator\.com/item\?id=2633384',
+  'https://twitter\.com/',
+  'https://x\.com/',
+
+  # Legacy self-reference retained in the README prose, but the repository no
+  # longer resolves publicly.
+  'https://github\.com/shaypal5/speks',
+]
