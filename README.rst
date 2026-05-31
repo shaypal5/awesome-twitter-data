@@ -211,6 +211,7 @@ Data Collection
 * `RepLab 2013 Twitter text downloaded <http://nlp.uned.es/replab2013/>`_ - Find it at the bottom of the page.
 
 * `TwitterAPI.io <https://twitterapi.io>`_ - A real-time Twitter/X data API for collecting tweets, user profiles, followers, advanced search results and the live tweet stream via REST endpoints.
+* `GetXAPI <https://www.getxapi.com>`_ - Twitter / X data API. Read endpoints (search, profiles, follower graph, timeline, bookmarks, DMs, lists, communities) and write endpoints (tweet, like, retweet, follow, DM, articles). Bearer-token auth. Public OpenAPI 3.1 spec at `docs.getxapi.com/openapi.json <https://docs.getxapi.com/openapi.json>`_.
 
 * `Xquik <https://github.com/Xquik-dev/x-twitter-scraper>`_ - X/Twitter data extraction platform - 20 bulk tools (followers, replies, quotes, retweets, likes, mentions, lists, communities), REST API, account monitoring, HMAC webhooks.
 
