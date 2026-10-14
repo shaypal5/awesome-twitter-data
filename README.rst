@@ -212,6 +212,8 @@ Data Collection
 
 * `TwitterAPI.io <https://twitterapi.io>`_ - A real-time Twitter/X data API for collecting tweets, user profiles, followers, advanced search results and the live tweet stream via REST endpoints.
 
+* `TwittrAPI <https://www.twittrapi.com>`_ - REST API for public Twitter/X data: profiles, tweets, replies, search with X operators, followers, lists, communities and trends. Pay per call; no X developer account needed.
+
 * `Xquik <https://github.com/Xquik-dev/x-twitter-scraper>`_ - X/Twitter data extraction platform - 20 bulk tools (followers, replies, quotes, retweets, likes, mentions, lists, communities), REST API, account monitoring, HMAC webhooks.
 
 * `TweetClaw <https://github.com/Xquik-dev/tweetclaw>`_ {`MIT`_} [OpenClaw plugin] - Collect X/Twitter data through Xquik from OpenClaw: search tweets and replies, export followers, look up users, monitor tweets, receive webhooks, review media workflows, and run giveaway draws.
