@@ -216,6 +216,8 @@ Data Collection
 
 * `TweetClaw <https://github.com/Xquik-dev/tweetclaw>`_ {`MIT`_} [OpenClaw plugin] - Collect X/Twitter data through Xquik from OpenClaw: search tweets and replies, export followers, look up users, monitor tweets, receive webhooks, review media workflows, and run giveaway draws.
 
+* `twtData <https://twtdata.com/>`_ - Paid web service that exports the followers, following, tweets and lists of public X/Twitter accounts to CSV or Excel.
+
 
 Analysis
 --------
