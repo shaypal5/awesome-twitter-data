@@ -216,6 +216,8 @@ Data Collection
 
 * `TweetClaw <https://github.com/Xquik-dev/tweetclaw>`_ {`MIT`_} [OpenClaw plugin] - Collect X/Twitter data through Xquik from OpenClaw: search tweets and replies, export followers, look up users, monitor tweets, receive webhooks, review media workflows, and run giveaway draws.
 
+* `LurkAPI <https://lurkapi.com/docs/twitter>`_ - A REST API that returns public X/Twitter data as JSON: single tweets with engagement counts, profiles with exact follower counts, and an account's recent tweets. Also covers 15 other social platforms.
+
 
 Analysis
 --------
